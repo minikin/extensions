@@ -1,0 +1,67 @@
+10:06 $ rake benchmark
+Using 100 extensions
+=========================================
+       user     system      total        real
+compile:   0.000236   0.000716   0.255737 (  0.263354)
+       user     system      total        real
+compile:   0.000107   0.000469   0.257376 (  0.265435)
+       user     system      total        real
+compile:   0.000106   0.000475   0.278422 (  0.285979)
+=========================================
+Average compile time for n=100 is 0.2638
+=========================================
+Using 1000 extensions
+=========================================
+       user     system      total        real
+compile:   0.000192   0.000780   2.626759 (  2.662317)
+       user     system      total        real
+compile:   0.000174   0.000620   2.048919 (  2.062676)
+       user     system      total        real
+compile:   0.000130   0.000668   1.853174 (  1.857643)
+=========================================
+Average compile time for n=1000 is 2.1763
+=========================================
+Using 2000 extensions
+=========================================
+       user     system      total        real
+compile:   0.000141   0.000616   4.153191 (  4.165126)
+       user     system      total        real
+compile:   0.000172   0.000679   4.105606 (  4.125042)
+       user     system      total        real
+compile:   0.000127   0.000584   4.226410 (  4.247869)
+=========================================
+Average compile time for n=2000 is 4.1617
+=========================================
+Using 3000 extensions
+=========================================
+       user     system      total        real
+compile:   0.000178   0.000698   6.512713 (  6.546268)
+       user     system      total        real
+compile:   0.000232   0.000842   6.557139 (  6.582610)
+       user     system      total        real
+compile:   0.000138   0.000643   6.227208 (  6.246979)
+=========================================
+Average compile time for n=3000 is 6.4324
+=========================================
+Using 5000 extensions
+=========================================
+       user     system      total        real
+compile:   0.000141   0.000642  12.381126 ( 12.424437)
+       user     system      total        real
+compile:   0.000147   0.000719  12.803230 ( 12.863040)
+       user     system      total        real
+compile:   0.000252   0.000658  12.492654 ( 12.520553)
+=========================================
+Average compile time for n=5000 is 12.559
+=========================================
+Using 10000 extensions
+=========================================
+       user     system      total        real
+compile:   0.000155   0.000714  42.018030 ( 42.236579)
+       user     system      total        real
+compile:   0.000201   0.000789  34.300298 ( 34.459038)
+       user     system      total        real
+compile:   0.000287   0.001196  33.058138 ( 33.106624)
+=========================================
+Average compile time for n=10000 is 36.4588
+=========================================

@@ -4,8 +4,10 @@ require 'benchmark'
 
 BUILD_DIR = Pathname.new("build")
 
-USE_EXTENSIONS = false
+USE_EXTENSIONS = true
 num_tests = 1000
+general_list = [100, 1000, 2000, 3000, 5000, 10000]
+apps_list = [46, 144, 155, 182, 381, 388]
 
 desc "Generate temporary files"
 task :generate do
@@ -41,9 +43,10 @@ end
 
 desc "Run multiple compilation cycle"
 task :benchmark do
-  [100, 1000, 2000, 3000, 5000, 10000].each do |tests|
+  apps_list.each do |tests|
     num_tests = tests
     puts "Using #{num_tests} #{USE_EXTENSIONS ? 'extensions' : 'methods'}"
+    puts "========================================="
     avg = 0
     num_runs = 3
     1.upto(num_runs) do |idx|
@@ -53,7 +56,9 @@ task :benchmark do
         avg += t.total / num_runs 
       end
     end
+    puts "========================================="
     puts "Average compile time for n=#{tests} is #{avg.round(4)}"
+    puts "========================================="
   end
 end
 

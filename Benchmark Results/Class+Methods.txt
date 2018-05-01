@@ -1,0 +1,66 @@
+Using 100 methods
+=========================================
+       user     system      total        real
+compile:   0.000191   0.000705   0.292321 (  0.299845)
+       user     system      total        real
+compile:   0.000119   0.000495   0.263804 (  0.269224)
+       user     system      total        real
+compile:   0.000099   0.000570   0.286743 (  0.291637)
+=========================================
+Average compile time for n=100 is 0.281
+=========================================
+Using 1000 methods
+=========================================
+       user     system      total        real
+compile:   0.000114   0.000567   1.759228 (  1.769608)
+       user     system      total        real
+compile:   0.000148   0.000649   1.739742 (  1.752482)
+       user     system      total        real
+compile:   0.000111   0.000546   1.809925 (  1.817546)
+=========================================
+Average compile time for n=1000 is 1.7696
+=========================================
+Using 2000 methods
+=========================================
+       user     system      total        real
+compile:   0.000141   0.000621   3.465717 (  3.473632)
+       user     system      total        real
+compile:   0.000146   0.000564   3.502272 (  3.515727)
+       user     system      total        real
+compile:   0.000139   0.000594   3.598348 (  3.603726)
+=========================================
+Average compile time for n=2000 is 3.5221
+=========================================
+Using 3000 methods
+=========================================
+       user     system      total        real
+compile:   0.000125   0.000538   6.505559 (  6.553116)
+       user     system      total        real
+compile:   0.000246   0.000569   6.067618 (  6.096811)
+       user     system      total        real
+compile:   0.000127   0.000565   6.448958 (  6.484538)
+=========================================
+Average compile time for n=3000 is 6.3407
+=========================================
+Using 5000 methods
+=========================================
+       user     system      total        real
+compile:   0.000154   0.000642   9.801858 (  9.824848)
+       user     system      total        real
+compile:   0.000173   0.000721  10.542573 ( 10.595728)
+       user     system      total        real
+compile:   0.000171   0.000773  11.069635 ( 11.118883)
+=========================================
+Average compile time for n=5000 is 10.4714
+=========================================
+Using 10000 methods
+=========================================
+       user     system      total        real
+compile:   0.000235   0.001101  21.909341 ( 21.994325)
+       user     system      total        real
+compile:   0.000152   0.000650  19.657028 ( 19.695312)
+       user     system      total        real
+compile:   0.000161   0.000724  21.518836 ( 21.591138)
+=========================================
+Average compile time for n=10000 is 21.0284
+=========================================
