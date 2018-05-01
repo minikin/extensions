@@ -1,0 +1,84 @@
+Using 0 extensions                                                                                                                                                                        ent lengths: ('colors', 6), ('desc', 8),=========================================
+       user     system      total        real
+compile:   0.000223   0.000709   0.100346 (  0.104052)
+       user     system      total        real
+compile:   0.000125   0.000565   0.097599 (  0.104091)                                                                                                                                    ent lengths: ('colors', 6), ('desc', 8),       user     system      total        real
+compile:   0.000109   0.000491   0.100422 (  0.104441)
+=========================================
+Average compile time for n=0 is 0.0995
+=========================================                                                                                                                                                 ent lengths: ('colors', 8), ('desc', 8),Using 46 extensions
+=========================================
+       user     system      total        real
+compile:   0.000105   0.000430   0.167676 (  0.174303)
+       user     system      total        real                                                                                                                                             ent lengths: ('colors', 7), ('desc', 8),compile:   0.000120   0.000497   0.168095 (  0.172890)
+       user     system      total        real
+compile:   0.000130   0.000656   0.173904 (  0.179840)
+=========================================
+Average compile time for n=46 is 0.1699
+=========================================
+Using 144 extensions
+=========================================
+       user     system      total        real
+compile:   0.000129   0.000499   0.338777 (  0.346067)
+       user     system      total        real
+compile:   0.000130   0.000519   0.335275 (  0.339863)
+       user     system      total        real
+compile:   0.000133   0.000569   0.379951 (  0.386493)
+=========================================
+Average compile time for n=144 is 0.3513
+=========================================
+Using 155 extensions
+=========================================
+       user     system      total        real
+compile:   0.000127   0.000563   0.358444 (  0.362081)
+       user     system      total        real
+compile:   0.000122   0.000483   0.350348 (  0.355399)
+       user     system      total        real
+compile:   0.000122   0.000545   0.350888 (  0.355224)
+=========================================
+Average compile time for n=155 is 0.3532
+=========================================
+Using 182 extensions
+=========================================
+       user     system      total        real
+compile:   0.000127   0.000551   0.497147 (  0.503634)
+       user     system      total        real
+compile:   0.000110   0.000487   0.447734 (  0.451407)
+       user     system      total        real
+compile:   0.000124   0.000524   0.394149 (  0.398464)
+=========================================
+Average compile time for n=182 is 0.4463
+=========================================
+Using 280 extensions
+=========================================
+       user     system      total        real
+compile:   0.000126   0.000553   0.552205 (  0.558276)
+       user     system      total        real
+compile:   0.000185   0.000626   0.551710 (  0.558972)
+       user     system      total        real
+compile:   0.000160   0.000590   0.558800 (  0.562361)
+=========================================
+Average compile time for n=280 is 0.5542
+=========================================
+Using 381 extensions
+=========================================
+       user     system      total        real
+compile:   0.000110   0.000514   0.724885 (  0.729247)
+       user     system      total        real
+compile:   0.000116   0.000507   0.725045 (  0.730302)
+       user     system      total        real
+compile:   0.000121   0.000549   0.683129 (  0.688293)
+=========================================
+Average compile time for n=381 is 0.711
+=========================================
+Using 388 extensions
+=========================================
+       user     system      total        real
+compile:   0.000201   0.000577   0.699670 (  0.705977)
+       user     system      total        real
+compile:   0.000145   0.000680   0.728834 (  0.740426)
+       user     system      total        real
+compile:   0.000101   0.000526   0.736483 (  0.741449)
+=========================================
+Average compile time for n=388 is 0.7217
+=========================================

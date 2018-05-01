@@ -1,4 +1,3 @@
-10:52 $ rake benchmark
 Using 100 extensions
 =========================================       user     system      total        real
 compile:   0.000269   0.000892   0.290625 (  0.314388)

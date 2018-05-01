@@ -1,0 +1,88 @@
+Using 0 methods
+=========================================
+       user     system      total        real
+compile:   0.000228   0.000713   0.078177 (  0.082549)
+       user     system      total        real
+compile:   0.000098   0.000438   0.081117 (  0.085677)
+       user     system      total        real
+compile:   0.000099   0.000439   0.080370 (  0.085364)
+=========================================
+Average compile time for n=0 is 0.0799
+=========================================
+Using 46 methods
+=========================================
+       user     system      total        real
+compile:   0.000107   0.000439   0.169173 (  0.174307)
+       user     system      total        real
+compile:   0.000096   0.000490   0.169095 (  0.173475)
+       user     system      total        real
+compile:   0.000100   0.000438   0.167485 (  0.172164)
+=========================================
+Average compile time for n=46 is 0.1686
+=========================================
+Using 144 methods
+=========================================
+       user     system      total        real
+compile:   0.000118   0.000523   0.329822 (  0.337563)
+       user     system      total        real
+compile:   0.000114   0.000461   0.327687 (  0.332974)
+       user     system      total        real
+compile:   0.000111   0.000462   0.319878 (  0.324640)
+=========================================
+Average compile time for n=144 is 0.3258
+=========================================
+Using 155 methods
+=========================================
+       user     system      total        real
+compile:   0.000110   0.000476   0.344501 (  0.349110)
+       user     system      total        real
+compile:   0.000118   0.000480   0.368252 (  0.371192)
+       user     system      total        real
+compile:   0.000127   0.000535   0.398316 (  0.403901)
+=========================================
+Average compile time for n=155 is 0.3704
+=========================================
+Using 182 methods
+=========================================
+       user     system      total        real
+compile:   0.000137   0.000563   0.508313 (  0.514599)
+       user     system      total        real
+compile:   0.000128   0.000526   0.596833 (  0.605376)
+       user     system      total        real
+compile:   0.000159   0.000609   0.476809 (  0.481894)
+=========================================
+Average compile time for n=182 is 0.5273
+=========================================
+Using 280 methods
+=========================================
+       user     system      total        real
+compile:   0.000139   0.000548   0.610675 (  0.617421)
+       user     system      total        real
+compile:   0.000120   0.000487   0.580944 (  0.584581)
+       user     system      total        real
+compile:   0.000133   0.000649   0.531443 (  0.535993)
+=========================================
+Average compile time for n=280 is 0.5744
+=========================================
+Using 381 methods
+=========================================
+       user     system      total        real
+compile:   0.000149   0.000667   0.686129 (  0.695344)
+       user     system      total        real
+compile:   0.000130   0.000532   0.720804 (  0.732756)
+       user     system      total        real
+compile:   0.000162   0.000616   0.690593 (  0.695598)
+=========================================
+Average compile time for n=381 is 0.6992
+=========================================
+Using 388 methods
+=========================================
+       user     system      total        real
+compile:   0.000119   0.000554   0.714995 (  0.722250)
+       user     system      total        real
+compile:   0.000154   0.000538   0.707174 (  0.712160)
+       user     system      total        real
+compile:   0.000195   0.000551   0.715011 (  0.722066)
+=========================================
+Average compile time for n=388 is 0.7124
+=========================================

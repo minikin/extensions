@@ -7,7 +7,7 @@ BUILD_DIR = Pathname.new("build")
 USE_EXTENSIONS = true
 num_tests = 1000
 general_list = [100, 1000, 2000, 3000, 5000, 10000]
-apps_list = [46, 144, 155, 182, 381, 388]
+apps_list = [0, 46, 144, 155, 182, 280, 381, 388]
 
 desc "Generate temporary files"
 task :generate do
@@ -17,7 +17,7 @@ task :generate do
   extensions = USE_EXTENSIONS ? num_tests : 0
   method_body = "for item in 0..<n { let newItem = item + 2; print(newItem)}"
   File.open(BUILD_DIR + "main.swift", 'w') do |f|
-    f.puts "struct MyClass {"
+    f.puts "class MyClass {"
     f.puts "let n = 1000"
     1.upto(methods) do |idx|
       f.puts "func method_#{idx}() { "
@@ -65,5 +65,6 @@ end
 task :clean do
   FileUtils.rm_rf BUILD_DIR
   FileUtils.rm_rf "test"
+  FileUtils.rm_rf "main"
 end
 
