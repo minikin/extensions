@@ -1,0 +1,49 @@
+08:50 $ rake benchmark
+Using 100 extensions
+       user     system      total        real
+compile:   0.000207   0.000743   0.264608 (  0.268713)
+       user     system      total        real
+compile:   0.000101   0.000426   0.252556 (  0.256250)
+       user     system      total        real
+compile:   0.000104   0.000375   0.257050 (  0.261745)
+Average compile time for n=100 is 0.2581
+Using 1000 extensions
+       user     system      total        real
+compile:   0.000128   0.000690   1.765932 (  1.773164)
+       user     system      total        real
+compile:   0.000146   0.000549   1.712912 (  1.719709)
+       user     system      total        real
+compile:   0.000258   0.000553   2.419834 (  2.445918)
+Average compile time for n=1000 is 1.9662
+Using 2000 extensions
+       user     system      total        real
+compile:   0.000150   0.000635   3.635281 (  3.641580)
+       user     system      total        real
+compile:   0.000208   0.001050   3.569732 (  3.584682)
+       user     system      total        real
+compile:   0.000143   0.000641   3.649112 (  3.659029)
+Average compile time for n=2000 is 3.618
+Using 3000 extensions
+       user     system      total        real
+compile:   0.000199   0.000787   6.256332 (  6.277519)
+       user     system      total        real
+compile:   0.000204   0.000752   5.969685 (  5.982665)
+       user     system      total        real
+compile:   0.000213   0.000799   5.975107 (  5.986294)
+Average compile time for n=3000 is 6.067
+Using 5000 extensions
+       user     system      total        real
+compile:   0.000159   0.000664  11.456794 ( 11.482556)
+       user     system      total        real
+compile:   0.000190   0.000858  11.388154 ( 11.412792)
+       user     system      total        real
+compile:   0.000211   0.000943  11.454184 ( 11.481013)
+Average compile time for n=5000 is 11.433
+Using 10000 extensions
+       user     system      total        real
+compile:   0.000164   0.000708  32.564545 ( 32.625123)
+       user     system      total        real
+compile:   0.000150   0.000668  32.659449 ( 32.715399)
+       user     system      total        real
+compile:   0.000252   0.000757  36.381138 ( 36.552342)
+Average compile time for n=10000 is 33.8684
