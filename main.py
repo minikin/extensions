@@ -22,7 +22,7 @@ output_file("index.html")
 # create a new plot with a title and axis labels
 plot_a = figure(
    tools='pan,box_zoom,reset,save',
-   title='Swift: Extensions vs Methods.',
+   title='Benchmark of Swift extensions vs methods',
    x_axis_label='number of methods/extensions', 
    y_axis_label='compilation time, s',
    plot_height=180
