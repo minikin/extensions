@@ -60,7 +60,7 @@ sourceForPlotB = ColumnDataSource(data=dict(
 
 plot_b = figure(
     tools='save',
-    title='Swift extensions in realword apps',
+    title='Swift extensions in real world apps',
     x_axis_label='approximate number of extensions in apps', 
     y_axis_label='compilation time, s',
     plot_height=150

@@ -4,8 +4,11 @@ require 'benchmark'
 
 BUILD_DIR = Pathname.new("build")
 
-USE_EXTENSIONS = true
+# Set to true if you want to run tests with extensions
+USE_EXTENSIONS = false
+
 num_tests = 1000
+
 general_list = [100, 1000, 2000, 3000, 5000, 10000]
 apps_list = [0, 46, 144, 155, 182, 280, 381, 388]
 
@@ -43,7 +46,7 @@ end
 
 desc "Run multiple compilation cycle"
 task :benchmark do
-  apps_list.each do |tests|
+  general_list.each do |tests|
     num_tests = tests
     puts "Using #{num_tests} #{USE_EXTENSIONS ? 'extensions' : 'methods'}"
     puts "========================================="
