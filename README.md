@@ -18,7 +18,7 @@ rake clean
 
 ## Results
 
-To get more details you can [read blog](http://minikin.me/extensions/) and check [interactive charts](http://minikin.me/extensions/).
+To get more details you can [read blog](https://medium.com/@minikin/benchmark-of-swift-extensions-vs-methods-swift-4-1-may-2018-2df3229f76fe) and check [interactive charts](http://minikin.me/extensions/).
 
 
 If you have any questions, please feel free to contact me: [@minikin](https://twitter.com/minikin)
