@@ -5,7 +5,7 @@ require 'benchmark'
 BUILD_DIR = Pathname.new("build")
 
 # Set to true if you want to run tests with extensions
-USE_EXTENSIONS = false
+USE_EXTENSIONS = true
 
 num_tests = 1000
 

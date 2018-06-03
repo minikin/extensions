@@ -1,0 +1,66 @@
+18:35 $ rake benchmark
+Using 100 methods
+=========================================
+       user     system      total        real
+compile:   0.000199   0.000830   1.499777 (  1.614788)
+       user     system      total        real
+compile:   0.000190   0.000839   0.274389 (  0.277987)
+       user     system      total        real
+compile:   0.000120   0.000507   0.256727 (  0.261409)
+=========================================
+Average compile time for n=100 is 0.677
+=========================================
+Using 1000 methods
+=========================================
+       user     system      total        real
+compile:   0.000145   0.000612   1.644744 (  1.658327)
+       user     system      total        real
+compile:   0.000143   0.000645   1.738904 (  1.745119)
+       user     system      total        real
+compile:   0.000113   0.000570   1.763867 (  1.772800)
+=========================================
+Average compile time for n=1000 is 1.7158
+=========================================
+Using 2000 methods
+=========================================
+       user     system      total        real
+compile:   0.000132   0.000649   3.386179 (  3.395121)
+       user     system      total        real
+compile:   0.000142   0.000684   3.525637 (  3.534530)
+       user     system      total        real
+compile:   0.000130   0.000588   3.491942 (  3.502493)
+=========================================
+Average compile time for n=2000 is 3.4679
+=========================================
+Using 3000 methods
+=========================================
+       user     system      total        real
+compile:   0.000128   0.000610   5.281890 (  5.292752)
+       user     system      total        real
+compile:   0.000161   0.000638   5.277417 (  5.291464)
+       user     system      total        real
+compile:   0.000139   0.000676   5.225029 (  5.239347)
+=========================================
+Average compile time for n=3000 is 5.2614
+=========================================
+Using 5000 methods
+=========================================
+       user     system      total        real
+compile:   0.000180   0.000870   9.225306 (  9.241854)
+       user     system      total        real
+compile:   0.000199   0.000892  10.564809 ( 10.617117)
+       user     system      total        real
+compile:   0.000144   0.000760   9.523899 (  9.547823)
+=========================================
+Average compile time for n=5000 is 9.7713
+=========================================
+Using 10000 methods
+=========================================
+       user     system      total        real
+compile:   0.000152   0.000862  19.979256 ( 19.997128)
+       user     system      total        real
+compile:   0.000257   0.000689  20.067701 ( 20.113792)
+       user     system      total        real
+compile:   0.000134   0.000870  18.638928 ( 18.668369)
+=========================================
+Average compile time for n=10000 is 19.562

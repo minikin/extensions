@@ -11,6 +11,9 @@ class_extensions = [0, 0.2638, 2.1763, 4.1617, 6.4324, 12.559, 36.4588]
 struct_methods = [0, 0.2635, 2.0129, 3.8822, 5.5516, 10.4739, 18.8432]
 struct_extensions = [0, 0.2717, 1.7917, 4.0686, 6.406, 13.2296, 32.1629]
 
+class_methods_private = [0, 0.677, 1.7158, 3.4679, 5.2614, 9.7713, 19.562]
+class_extensions_private = [0, 0.1874, 1.175, 2.7621, 4.2379, 8.411, 25.3922]
+
 # Data for plot b
 x_apps = [0, 46, 144, 155, 182, 280, 381, 388]
 apps_extensions = [0, 0.1699, 0.3513, 0.3532, 0.4463, 0.5542, 0.711, 0.7217]
@@ -31,10 +34,13 @@ plot_a = figure(
 plot_a.grid.bounds = (0, 2000)
 
 # add a line renderer with legend and line thickness
-plot_a.line(x, class_methods, legend='Class + Methods', line_color='midnightblue', line_width=3)
+plot_a.line(x, class_methods, legend='Class + Methods', line_color='midnightblue', line_width=2)
 plot_a.line(x, class_extensions, legend='Class + Extensions', line_color='orange', line_width=3, line_dash='4 4')
 plot_a.line(x, struct_methods, legend='Struct + Methods', line_color='blue', line_width=3)
-plot_a.line(x, struct_extensions, legend='Struct + Extensions', line_color='orangered', line_width=3, line_dash='12 6')
+plot_a.line(x, struct_extensions, legend='Struct + Extensions', line_color='orangered', line_width=2, line_dash='12 6')
+plot_a.line(x, class_methods_private, legend='Class + Private Methods', line_color='teal', line_width=2)
+plot_a.line(x, class_extensions_private, legend='Class + Private Extensions', line_color='cyan', line_width=3, line_dash='5 12')
+
 plot_a.legend.location = 'top_left'
 
 sourceForPlotB = ColumnDataSource(data=dict(
