@@ -39,7 +39,7 @@ plot_a.line(x, class_extensions, legend='Class + Extensions', line_color='orange
 plot_a.line(x, struct_methods, legend='Struct + Methods', line_color='blue', line_width=3)
 plot_a.line(x, struct_extensions, legend='Struct + Extensions', line_color='orangered', line_width=2, line_dash='12 6')
 plot_a.line(x, class_methods_private, legend='Class + Private Methods', line_color='teal', line_width=2)
-plot_a.line(x, class_extensions_private, legend='Class + Private Extensions', line_color='cyan', line_width=3, line_dash='5 12')
+plot_a.line(x, class_extensions_private, legend='Class + Private Functions', line_color='cyan', line_width=3, line_dash='5 12')
 
 plot_a.legend.location = 'top_left'
 
