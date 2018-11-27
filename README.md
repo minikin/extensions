@@ -1,4 +1,4 @@
-# Benchmark of Swift extensions vs methods: Swift 4.1 (May 2018)
+# Benchmark of Swift extensions vs methods: Swift 4.1 (December 2018)
 
 [![Results](results.png?raw=true "Benchmark of Swift extensions vs methods")](http://minikin.me/extensions/)
 
