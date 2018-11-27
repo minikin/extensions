@@ -5,7 +5,7 @@ require 'benchmark'
 BUILD_DIR = Pathname.new("build")
 
 # Set to true if you want to run tests with extensions
-USE_EXTENSIONS = true
+USE_EXTENSIONS = false
 
 num_tests = 1000
 
@@ -20,7 +20,7 @@ task :generate do
   extensions = USE_EXTENSIONS ? num_tests : 0
   method_body = "for item in 0..<n { let newItem = item + 2; print(newItem)}"
   File.open(BUILD_DIR + "main.swift", 'w') do |f|
-    f.puts "class MyClass {"
+    f.puts "struct MyStruct {"
     f.puts "let n = 1000"
     1.upto(methods) do |idx|
       f.puts "func method_#{idx}() { "
@@ -30,7 +30,7 @@ task :generate do
     f.puts "}"
     f.puts
     1.upto(extensions) do |idx|
-      f.puts "extension MyClass {"
+      f.puts "extension MyStruct {"
       f.puts "func method_ext_#{idx}() {"
       f.puts method_body
       f.puts "}"
@@ -51,12 +51,12 @@ task :benchmark do
     puts "Using #{num_tests} #{USE_EXTENSIONS ? 'extensions' : 'methods'}"
     puts "========================================="
     avg = 0
-    num_runs = 3
+    num_runs = 10
     1.upto(num_runs) do |idx|
       Benchmark.bm do |b|
         Rake::Task["generate"].execute
         t = b.report("compile: ") { Rake::Task["compile"].execute }
-        avg += t.total / num_runs 
+        avg += t.total / num_runs
       end
     end
     puts "========================================="
