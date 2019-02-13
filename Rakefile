@@ -5,7 +5,7 @@ require 'benchmark'
 BUILD_DIR = Pathname.new("build")
 
 # Set to true if you want to run tests with extensions
-USE_EXTENSIONS = false
+USE_EXTENSIONS = true
 
 num_tests = 1000
 
@@ -20,7 +20,7 @@ task :generate do
   extensions = USE_EXTENSIONS ? num_tests : 0
   method_body = "for item in 0..<n { let newItem = item + 2; print(newItem)}"
   File.open(BUILD_DIR + "main.swift", 'w') do |f|
-    f.puts "struct MyStruct {"
+    f.puts "class MyClass {"
     f.puts "let n = 1000"
     1.upto(methods) do |idx|
       f.puts "func method_#{idx}() { "
@@ -30,7 +30,7 @@ task :generate do
     f.puts "}"
     f.puts
     1.upto(extensions) do |idx|
-      f.puts "extension MyStruct {"
+      f.puts "extension MyClass {"
       f.puts "func method_ext_#{idx}() {"
       f.puts method_body
       f.puts "}"
@@ -46,7 +46,7 @@ end
 
 desc "Run multiple compilation cycle"
 task :benchmark do
-  general_list.each do |tests|
+  apps_list.each do |tests|
     num_tests = tests
     puts "Using #{num_tests} #{USE_EXTENSIONS ? 'extensions' : 'methods'}"
     puts "========================================="

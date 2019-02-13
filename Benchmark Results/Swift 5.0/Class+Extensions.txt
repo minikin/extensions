@@ -1,0 +1,150 @@
+Using 100 extensions
+=========================================
+       user     system      total        real
+compile:   0.000000   0.000000   0.370000 (  0.446096)
+       user     system      total        real
+compile:   0.000000   0.000000   0.390000 (  0.449764)
+       user     system      total        real
+compile:   0.000000   0.000000   0.380000 (  0.444969)
+       user     system      total        real
+compile:   0.000000   0.010000   0.420000 (  0.471708)
+       user     system      total        real
+compile:   0.000000   0.000000   0.430000 (  0.520960)
+       user     system      total        real
+compile:   0.000000   0.000000   0.420000 (  0.538961)
+       user     system      total        real
+compile:   0.000000   0.000000   0.400000 (  0.467580)
+       user     system      total        real
+compile:   0.000000   0.000000   0.430000 (  0.494140)
+       user     system      total        real
+compile:   0.000000   0.000000   0.380000 (  0.451691)
+       user     system      total        real
+compile:   0.000000   0.000000   0.400000 (  0.463940)
+=========================================
+Average compile time for n=100 is 0.402
+=========================================
+Using 1000 extensions
+=========================================
+       user     system      total        real
+compile:   0.000000   0.000000   2.170000 (  2.269970)
+       user     system      total        real
+compile:   0.000000   0.000000   1.950000 (  2.017380)
+       user     system      total        real
+compile:   0.000000   0.000000   2.090000 (  2.165508)
+       user     system      total        real
+compile:   0.000000   0.000000   2.020000 (  2.125557)
+       user     system      total        real
+compile:   0.000000   0.000000   2.120000 (  2.198976)
+       user     system      total        real
+compile:   0.000000   0.000000   1.950000 (  2.029671)
+       user     system      total        real
+compile:   0.000000   0.000000   1.980000 (  2.050505)
+       user     system      total        real
+compile:   0.000000   0.000000   2.040000 (  2.116515)
+       user     system      total        real
+compile:   0.000000   0.000000   1.980000 (  2.054631)
+       user     system      total        real
+compile:   0.010000   0.000000   2.120000 (  2.204441)
+=========================================
+Average compile time for n=1000 is 2.042
+=========================================
+Using 2000 extensions
+=========================================
+       user     system      total        real
+compile:   0.000000   0.000000   4.180000 (  4.338861)
+       user     system      total        real
+compile:   0.000000   0.000000   4.170000 (  4.264770)
+       user     system      total        real
+compile:   0.000000   0.000000   4.040000 (  4.165321)
+       user     system      total        real
+compile:   0.000000   0.000000   4.050000 (  4.123247)
+       user     system      total        real
+compile:   0.000000   0.000000   3.900000 (  3.968758)
+       user     system      total        real
+compile:   0.000000   0.000000   3.970000 (  4.074000)
+       user     system      total        real
+compile:   0.000000   0.000000   4.840000 (  5.537968)
+       user     system      total        real
+compile:   0.000000   0.010000   4.310000 (  4.914077)
+       user     system      total        real
+compile:   0.000000   0.000000   4.980000 (  5.973316)
+       user     system      total        real
+compile:   0.000000   0.000000   4.340000 (  4.598505)
+=========================================
+Average compile time for n=2000 is 4.278
+=========================================
+Using 3000 extensions
+=========================================
+       user     system      total        real
+compile:   0.000000   0.000000   7.560000 (  8.418890)
+       user     system      total        real
+compile:   0.000000   0.000000   7.410000 (  8.215965)
+       user     system      total        real
+compile:   0.000000   0.000000   7.600000 (  9.073632)
+       user     system      total        real
+compile:   0.000000   0.000000   6.550000 (  6.751326)
+       user     system      total        real
+compile:   0.000000   0.000000   6.290000 (  6.402365)
+       user     system      total        real
+compile:   0.000000   0.000000   6.200000 (  6.288888)
+       user     system      total        real
+compile:   0.000000   0.000000   6.220000 (  6.324841)
+       user     system      total        real
+compile:   0.000000   0.000000   6.450000 (  6.622592)
+       user     system      total        real
+compile:   0.000000   0.000000   6.730000 (  6.946608)
+       user     system      total        real
+compile:   0.000000   0.000000   6.660000 (  6.844141)
+=========================================
+Average compile time for n=3000 is 6.767
+=========================================
+Using 5000 extensions
+=========================================
+       user     system      total        real
+compile:   0.000000   0.000000  11.780000 ( 11.918918)
+       user     system      total        real
+compile:   0.000000   0.000000  13.640000 ( 14.921324)
+       user     system      total        real
+compile:   0.000000   0.000000  12.580000 ( 13.620522)
+       user     system      total        real
+compile:   0.010000   0.000000  12.690000 ( 13.008257)
+       user     system      total        real
+compile:   0.010000   0.000000  12.490000 ( 12.734350)
+       user     system      total        real
+compile:   0.000000   0.000000  12.820000 ( 13.124309)
+       user     system      total        real
+compile:   0.000000   0.000000  13.410000 ( 13.735252)
+       user     system      total        real
+compile:   0.000000   0.000000  14.670000 ( 15.348082)
+       user     system      total        real
+compile:   0.000000   0.000000  12.040000 ( 12.192886)
+       user     system      total        real
+compile:   0.000000   0.000000  11.690000 ( 11.797757)
+=========================================
+Average compile time for n=5000 is 12.781
+=========================================
+Using 10000 extensions
+=========================================
+       user     system      total        real
+compile:   0.000000   0.000000  36.290000 ( 36.881580)
+       user     system      total        real
+compile:   0.000000   0.000000  35.710000 ( 36.645421)
+       user     system      total        real
+compile:   0.000000   0.000000  36.130000 ( 36.639327)
+       user     system      total        real
+compile:   0.000000   0.000000  33.570000 ( 33.893109)
+       user     system      total        real
+compile:   0.000000   0.000000  38.690000 ( 41.038918)
+       user     system      total        real
+compile:   0.000000   0.000000  40.170000 ( 43.292588)
+       user     system      total        real
+compile:   0.000000   0.000000  39.380000 ( 41.090203)
+       user     system      total        real
+compile:   0.000000   0.000000  37.340000 ( 38.147382)
+       user     system      total        real
+compile:   0.000000   0.000000  33.840000 ( 34.064220)
+       user     system      total        real
+compile:   0.000000   0.000000  34.830000 ( 35.532307)
+=========================================
+Average compile time for n=10000 is 36.595
+=========================================

@@ -1,4 +1,7 @@
-# WIP (update): Benchmark of Swift extensions vs methods: Swift 4.2.1 (December 2018)
+# Benchmark of Swift extensions vs methods
+
+- swift version: 5.0
+- updated: 14.02.2019
 
 [![Results](results.png?raw=true "Benchmark of Swift extensions vs methods")](http://minikin.me/extensions/)
 
@@ -7,13 +10,13 @@
 To run tests set `USE_EXTENSIONS` to `true` or `false` in Rakefile.
 
 ```bash
-   rake benchmark
+ rake benchmark
 ```
 
 Cleanup tests results:
 
 ```bash
-rake clean
+ rake clean
 ```
 
 ## Results
@@ -23,3 +26,11 @@ To get more details you can [read blog](https://medium.com/@minikin/benchmark-of
 _[Results for Swift 4.1](https://github.com/minikin/extensions/tree/swift-4.1)_
 
 If you have any questions, please feel free to contact me: [@minikin](https://twitter.com/minikin)
+
+## Plots
+
+To genrate `index.html` run:
+
+```python
+   python main.py
+```
