@@ -20,7 +20,7 @@ task :generate do
   extensions = USE_EXTENSIONS ? num_tests : 0
   method_body = "for item in 0..<n { let newItem = item + 2; print(newItem)}"
   File.open(BUILD_DIR + "main.swift", 'w') do |f|
-    f.puts "class MyClass {"
+    f.puts "struct MyClass {"
     f.puts "let n = 1000"
     1.upto(methods) do |idx|
       f.puts "func method_#{idx}() { "

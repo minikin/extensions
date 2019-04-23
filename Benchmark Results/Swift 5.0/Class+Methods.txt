@@ -1,150 +1,150 @@
 Using 100 methods
 =========================================
        user     system      total        real
-compile:   0.000000   0.000000   0.370000 (  0.443044)
+compile:   0.000000   0.000000   0.310000 (  0.310228)
        user     system      total        real
-compile:   0.000000   0.000000   0.380000 (  0.449468)
+compile:   0.000000   0.000000   0.310000 (  0.313632)
        user     system      total        real
-compile:   0.000000   0.000000   0.400000 (  0.458895)
+compile:   0.000000   0.000000   0.310000 (  0.309285)
        user     system      total        real
-compile:   0.000000   0.000000   0.410000 (  0.476613)
+compile:   0.000000   0.000000   0.310000 (  0.324407)
        user     system      total        real
-compile:   0.000000   0.000000   0.430000 (  0.524090)
+compile:   0.000000   0.000000   0.310000 (  0.314256)
        user     system      total        real
-compile:   0.000000   0.010000   0.420000 (  0.485249)
+compile:   0.000000   0.000000   0.310000 (  0.313789)
        user     system      total        real
-compile:   0.000000   0.000000   0.390000 (  0.453621)
+compile:   0.000000   0.000000   0.310000 (  0.311385)
        user     system      total        real
-compile:   0.000000   0.000000   0.370000 (  0.432275)
+compile:   0.000000   0.000000   0.310000 (  0.311546)
        user     system      total        real
-compile:   0.000000   0.000000   0.400000 (  0.464178)
+compile:   0.000000   0.000000   0.310000 (  0.314687)
        user     system      total        real
-compile:   0.000000   0.000000   0.450000 (  0.524795)
+compile:   0.000000   0.000000   0.310000 (  0.312288)
 =========================================
-Average compile time for n=100 is 0.402
+Average compile time for n=100 is 0.31
 =========================================
 Using 1000 methods
 =========================================
        user     system      total        real
-compile:   0.000000   0.000000   2.060000 (  2.150278)
+compile:   0.000000   0.000000   2.000000 (  2.001937)
        user     system      total        real
-compile:   0.000000   0.000000   1.900000 (  1.986461)
+compile:   0.000000   0.000000   2.020000 (  2.027952)
        user     system      total        real
-compile:   0.000000   0.000000   1.870000 (  1.936102)
+compile:   0.000000   0.000000   2.020000 (  2.022469)
        user     system      total        real
-compile:   0.000000   0.000000   1.920000 (  2.002244)
+compile:   0.000000   0.000000   2.020000 (  2.026740)
        user     system      total        real
-compile:   0.000000   0.000000   1.980000 (  2.054122)
+compile:   0.000000   0.000000   1.990000 (  1.988331)
        user     system      total        real
-compile:   0.000000   0.000000   2.170000 (  2.269350)
+compile:   0.000000   0.000000   2.010000 (  2.017805)
        user     system      total        real
-compile:   0.000000   0.000000   1.940000 (  2.023452)
+compile:   0.000000   0.000000   2.010000 (  2.012096)
        user     system      total        real
-compile:   0.000000   0.000000   1.930000 (  2.017424)
+compile:   0.000000   0.000000   2.010000 (  2.017144)
        user     system      total        real
-compile:   0.000000   0.000000   1.910000 (  1.995349)
+compile:   0.000000   0.000000   2.000000 (  2.005622)
        user     system      total        real
-compile:   0.000000   0.000000   1.900000 (  1.963729)
+compile:   0.000000   0.000000   2.030000 (  2.037326)
 =========================================
-Average compile time for n=1000 is 1.958
+Average compile time for n=1000 is 2.011
 =========================================
 Using 2000 methods
 =========================================
        user     system      total        real
-compile:   0.000000   0.000000   3.780000 (  3.886384)
+compile:   0.000000   0.000000   3.990000 (  3.989763)
        user     system      total        real
-compile:   0.000000   0.000000   3.610000 (  3.690602)
+compile:   0.000000   0.000000   3.990000 (  4.002202)
        user     system      total        real
-compile:   0.000000   0.000000   3.660000 (  3.744652)
+compile:   0.000000   0.000000   4.040000 (  4.042573)
        user     system      total        real
-compile:   0.000000   0.000000   3.740000 (  3.835606)
+compile:   0.000000   0.000000   4.030000 (  4.044855)
        user     system      total        real
-compile:   0.000000   0.010000   3.630000 (  3.709133)
+compile:   0.000000   0.000000   3.990000 (  3.992892)
        user     system      total        real
-compile:   0.000000   0.000000   3.620000 (  3.707687)
+compile:   0.000000   0.000000   4.040000 (  4.041412)
        user     system      total        real
-compile:   0.000000   0.000000   3.800000 (  3.882554)
+compile:   0.000000   0.000000   3.990000 (  3.996352)
        user     system      total        real
-compile:   0.000000   0.000000   3.610000 (  3.726923)
+compile:   0.000000   0.000000   4.050000 (  4.047647)
        user     system      total        real
-compile:   0.000000   0.000000   3.710000 (  3.808710)
+compile:   0.000000   0.000000   4.000000 (  4.011231)
        user     system      total        real
-compile:   0.000000   0.000000   3.880000 (  4.143510)
+compile:   0.000000   0.000000   3.990000 (  4.002459)
 =========================================
-Average compile time for n=2000 is 3.704
+Average compile time for n=2000 is 4.011
 =========================================
 Using 3000 methods
 =========================================
        user     system      total        real
-compile:   0.000000   0.000000   5.650000 (  5.759951)
+compile:   0.000000   0.000000   6.030000 (  6.030612)
        user     system      total        real
-compile:   0.000000   0.000000   5.790000 (  6.131364)
+compile:   0.000000   0.000000   6.020000 (  6.025840)
        user     system      total        real
-compile:   0.000000   0.000000   5.870000 (  6.038112)
+compile:   0.000000   0.000000   6.030000 (  6.032215)
        user     system      total        real
-compile:   0.000000   0.000000   5.600000 (  5.732323)
+compile:   0.000000   0.000000   6.020000 (  6.030156)
        user     system      total        real
-compile:   0.000000   0.010000   5.700000 (  5.819884)
+compile:   0.000000   0.000000   6.110000 (  6.123128)
        user     system      total        real
-compile:   0.000000   0.000000   5.350000 (  5.449080)
+compile:   0.000000   0.010000   6.040000 (  6.038088)
        user     system      total        real
-compile:   0.000000   0.000000   5.570000 (  5.671560)
+compile:   0.000000   0.000000   6.050000 (  6.054654)
        user     system      total        real
-compile:   0.000000   0.000000   5.420000 (  5.523905)
+compile:   0.000000   0.000000   6.020000 (  6.020527)
        user     system      total        real
-compile:   0.000000   0.000000   5.570000 (  5.679495)
+compile:   0.000000   0.000000   6.030000 (  6.044048)
        user     system      total        real
-compile:   0.000000   0.000000   5.460000 (  5.570174)
+compile:   0.000000   0.000000   6.010000 (  6.008387)
 =========================================
-Average compile time for n=3000 is 5.598
+Average compile time for n=3000 is 6.036
 =========================================
 Using 5000 methods
 =========================================
        user     system      total        real
-compile:   0.000000   0.000000   9.150000 (  9.334760)
+compile:   0.000000   0.000000  10.070000 ( 10.084056)
        user     system      total        real
-compile:   0.000000   0.000000   9.040000 (  9.164412)
+compile:   0.000000   0.000000  10.040000 ( 10.042773)
        user     system      total        real
-compile:   0.000000   0.000000   9.060000 (  9.186066)
+compile:   0.000000   0.000000  10.050000 ( 10.066741)
        user     system      total        real
-compile:   0.000000   0.000000   9.160000 (  9.299587)
+compile:   0.000000   0.000000  10.030000 ( 10.038678)
        user     system      total        real
-compile:   0.000000   0.000000   9.260000 (  9.744954)
+compile:   0.000000   0.000000  10.020000 ( 10.024467)
        user     system      total        real
-compile:   0.000000   0.000000   8.970000 (  9.178810)
+compile:   0.000000   0.000000  10.060000 ( 10.075279)
        user     system      total        real
-compile:   0.000000   0.000000   9.490000 (  9.946835)
+compile:   0.000000   0.000000  10.040000 ( 10.048547)
        user     system      total        real
-compile:   0.000000   0.000000   9.250000 (  9.660928)
+compile:   0.000000   0.000000  10.210000 ( 10.218780)
        user     system      total        real
-compile:   0.000000   0.000000   8.920000 (  9.087603)
+compile:   0.000000   0.000000  10.080000 ( 10.084077)
        user     system      total        real
-compile:   0.000000   0.000000   8.890000 (  8.976130)
+compile:   0.000000   0.000000  10.020000 ( 10.038427)
 =========================================
-Average compile time for n=5000 is 9.119
+Average compile time for n=5000 is 10.062
 =========================================
 Using 10000 methods
 =========================================
        user     system      total        real
-compile:   0.000000   0.000000  17.660000 ( 17.785500)
+compile:   0.000000   0.000000  20.430000 ( 20.445369)
        user     system      total        real
-compile:   0.000000   0.000000  19.050000 ( 20.197637)
+compile:   0.000000   0.000000  20.380000 ( 20.402476)
        user     system      total        real
-compile:   0.000000   0.000000  19.110000 ( 20.031568)
+compile:   0.000000   0.000000  20.210000 ( 20.226312)
        user     system      total        real
-compile:   0.000000   0.000000  19.130000 ( 19.606126)
+compile:   0.000000   0.000000  19.910000 ( 19.917227)
        user     system      total        real
-compile:   0.000000   0.000000  19.050000 ( 19.876755)
+compile:   0.000000   0.000000  20.200000 ( 20.233083)
        user     system      total        real
-compile:   0.000000   0.000000  19.850000 ( 21.540442)
+compile:   0.000000   0.000000  20.310000 ( 20.319353)
        user     system      total        real
-compile:   0.000000   0.000000  18.760000 ( 19.315625)
+compile:   0.000000   0.000000  20.160000 ( 20.188849)
        user     system      total        real
-compile:   0.000000   0.000000  18.670000 ( 19.352236)
+compile:   0.000000   0.000000  20.130000 ( 20.140953)
        user     system      total        real
-compile:   0.000000   0.000000  18.950000 ( 19.308726)
+compile:   0.000000   0.000000  20.260000 ( 20.276487)
        user     system      total        real
-compile:   0.000000   0.000000  18.270000 ( 18.547955)
+compile:   0.000000   0.000000  20.210000 ( 20.231390)
 =========================================
-Average compile time for n=10000 is 18.85
+Average compile time for n=10000 is 20.22
 =========================================
