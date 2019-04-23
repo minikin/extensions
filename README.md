@@ -1,7 +1,7 @@
 # Benchmark of Swift extensions vs methods
 
-- swift version: 5.0
-- updated: 14.02.2019
+- Swift version: 5.0
+- Updated: 23.04.2019
 
 [![Results](results.png?raw=true "Benchmark of Swift extensions vs methods")](http://minikin.me/extensions/)
 
