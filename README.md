@@ -10,13 +10,13 @@
 To run tests set `USE_EXTENSIONS` to `true` or `false` in Rakefile.
 
 ```bash
- rake benchmark
+rake benchmark
 ```
 
 Cleanup tests results:
 
 ```bash
- rake clean
+rake clean
 ```
 
 ## Results
@@ -32,5 +32,11 @@ If you have any questions, please feel free to contact me: [@minikin](https://tw
 To genrate `index.html` run:
 
 ```python
-   python main.py
+python3 main.py
+```
+
+or
+
+```python
+python main.py
 ```
