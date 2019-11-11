@@ -10,7 +10,7 @@
 To run tests set `USE_EXTENSIONS` to `true` or `false` in Rakefile.
 
 ```bash
-rake benchmark
+rake benchmark && rake clean
 ```
 
 Cleanup tests results:

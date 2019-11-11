@@ -1,0 +1,200 @@
+Using 0 extensions
+=========================================
+       user     system      total        real
+compile:   0.000124   0.000850   0.176950 (  0.179185)
+       user     system      total        real
+compile:   0.000124   0.000663   0.174464 (  0.177693)
+       user     system      total        real
+compile:   0.000097   0.000649   0.177443 (  0.181902)
+       user     system      total        real
+compile:   0.000128   0.000655   0.180094 (  0.184919)
+       user     system      total        real
+compile:   0.000123   0.000683   0.175100 (  0.179588)
+       user     system      total        real
+compile:   0.000111   0.000622   0.173804 (  0.177400)
+       user     system      total        real
+compile:   0.000101   0.000620   0.172830 (  0.176922)
+       user     system      total        real
+compile:   0.000128   0.000694   0.180977 (  0.184088)
+       user     system      total        real
+compile:   0.000114   0.000671   0.179541 (  0.183856)
+       user     system      total        real
+compile:   0.000124   0.000654   0.176253 (  0.179931)
+=========================================
+Average compile time for n=0 is 0.1767
+=========================================
+Using 46 extensions
+=========================================
+       user     system      total        real
+compile:   0.000112   0.000720   0.266123 (  0.270630)
+       user     system      total        real
+compile:   0.000121   0.000811   0.253839 (  0.258295)
+       user     system      total        real
+compile:   0.000103   0.000785   0.257889 (  0.262900)
+       user     system      total        real
+compile:   0.000118   0.000606   0.259060 (  0.263859)
+       user     system      total        real
+compile:   0.000118   0.000681   0.259339 (  0.264537)
+       user     system      total        real
+compile:   0.000113   0.000647   0.262295 (  0.266513)
+       user     system      total        real
+compile:   0.000121   0.000650   0.260618 (  0.265117)
+       user     system      total        real
+compile:   0.000096   0.000687   0.257100 (  0.262325)
+       user     system      total        real
+compile:   0.000132   0.000712   0.267793 (  0.271873)
+       user     system      total        real
+compile:   0.000110   0.000643   0.257922 (  0.262676)
+=========================================
+Average compile time for n=46 is 0.2602
+=========================================
+Using 144 extensions
+=========================================
+       user     system      total        real
+compile:   0.000109   0.000649   0.430596 (  0.434959)
+       user     system      total        real
+compile:   0.000101   0.000674   0.435723 (  0.440134)
+       user     system      total        real
+compile:   0.000133   0.000675   0.445968 (  0.450647)
+       user     system      total        real
+compile:   0.000115   0.000797   0.457181 (  0.461894)
+       user     system      total        real
+compile:   0.000108   0.000743   0.444468 (  0.448351)
+       user     system      total        real
+compile:   0.000125   0.000676   0.436817 (  0.441347)
+       user     system      total        real
+compile:   0.000110   0.000745   0.433674 (  0.438778)
+       user     system      total        real
+compile:   0.000117   0.000716   0.447056 (  0.449752)
+       user     system      total        real
+compile:   0.000097   0.000654   0.434228 (  0.437961)
+       user     system      total        real
+compile:   0.000099   0.000650   0.434849 (  0.438863)
+=========================================
+Average compile time for n=144 is 0.4401
+=========================================
+Using 155 extensions
+=========================================
+       user     system      total        real
+compile:   0.000104   0.000670   0.453927 (  0.457161)
+       user     system      total        real
+compile:   0.000101   0.000673   0.467570 (  0.472527)
+       user     system      total        real
+compile:   0.000142   0.000730   0.468431 (  0.473025)
+       user     system      total        real
+compile:   0.000106   0.000790   0.459322 (  0.463875)
+       user     system      total        real
+compile:   0.000099   0.000785   0.455969 (  0.460549)
+       user     system      total        real
+compile:   0.000096   0.000709   0.457247 (  0.462618)
+       user     system      total        real
+compile:   0.000110   0.000875   0.472690 (  0.477203)
+       user     system      total        real
+compile:   0.000109   0.000685   0.453375 (  0.457715)
+       user     system      total        real
+compile:   0.000100   0.000665   0.459671 (  0.465936)
+       user     system      total        real
+compile:   0.000096   0.000694   0.462907 (  0.468086)
+=========================================
+Average compile time for n=155 is 0.4611
+=========================================
+Using 182 extensions
+=========================================
+       user     system      total        real
+compile:   0.000111   0.000674   0.545585 (  0.548591)
+       user     system      total        real
+compile:   0.000098   0.000714   0.534190 (  0.536417)
+       user     system      total        real
+compile:   0.000105   0.000760   0.514603 (  0.519770)
+       user     system      total        real
+compile:   0.000099   0.000787   0.562286 (  0.568304)
+       user     system      total        real
+compile:   0.000106   0.000809   0.548033 (  0.552167)
+       user     system      total        real
+compile:   0.000105   0.000878   0.555442 (  0.561032)
+       user     system      total        real
+compile:   0.000124   0.000744   0.513479 (  0.518033)
+       user     system      total        real
+compile:   0.000101   0.000698   0.551867 (  0.555667)
+       user     system      total        real
+compile:   0.000127   0.000723   0.564690 (  0.569934)
+       user     system      total        real
+compile:   0.000104   0.000683   0.562475 (  0.566363)
+=========================================
+Average compile time for n=182 is 0.5453
+=========================================
+Using 280 extensions
+=========================================
+       user     system      total        real
+compile:   0.000111   0.000839   0.713250 (  0.716964)
+       user     system      total        real
+compile:   0.000135   0.000727   0.752674 (  0.756024)
+       user     system      total        real
+compile:   0.000107   0.000761   0.771347 (  0.776499)
+       user     system      total        real
+compile:   0.000123   0.000670   0.757290 (  0.760889)
+       user     system      total        real
+compile:   0.000115   0.000731   0.758454 (  0.762065)
+       user     system      total        real
+compile:   0.000103   0.000709   0.746135 (  0.751408)
+       user     system      total        real
+compile:   0.000109   0.000733   0.739658 (  0.744841)
+       user     system      total        real
+compile:   0.000125   0.000719   0.736690 (  0.740856)
+       user     system      total        real
+compile:   0.000100   0.000735   0.740923 (  0.745541)
+       user     system      total        real
+compile:   0.000108   0.000740   0.760287 (  0.764970)
+=========================================
+Average compile time for n=280 is 0.7477
+=========================================
+Using 381 extensions
+=========================================
+       user     system      total        real
+compile:   0.000105   0.000709   0.951606 (  0.954458)
+       user     system      total        real
+compile:   0.000124   0.000788   0.927712 (  0.932427)
+       user     system      total        real
+compile:   0.000124   0.000760   0.924479 (  0.928878)
+       user     system      total        real
+compile:   0.000115   0.000729   0.990204 (  0.994006)
+       user     system      total        real
+compile:   0.000121   0.000712   0.963285 (  0.966698)
+       user     system      total        real
+compile:   0.000112   0.000834   0.922084 (  0.926702)
+       user     system      total        real
+compile:   0.000117   0.000864   0.934043 (  0.937294)
+       user     system      total        real
+compile:   0.000115   0.000690   0.913989 (  0.917637)
+       user     system      total        real
+compile:   0.000109   0.000747   0.962694 (  0.966092)
+       user     system      total        real
+compile:   0.000105   0.000778   0.939954 (  0.944422)
+=========================================
+Average compile time for n=381 is 0.943
+=========================================
+Using 388 extensions
+=========================================
+       user     system      total        real
+compile:   0.000123   0.000825   0.995599 (  0.998905)
+       user     system      total        real
+compile:   0.000106   0.000677   1.018571 (  1.023080)
+       user     system      total        real
+compile:   0.000111   0.000709   0.963696 (  0.968449)
+       user     system      total        real
+compile:   0.000123   0.000735   0.946190 (  0.949077)
+       user     system      total        real
+compile:   0.000115   0.000772   0.918339 (  0.923245)
+       user     system      total        real
+compile:   0.000096   0.000734   0.907662 (  0.912161)
+       user     system      total        real
+compile:   0.000110   0.000756   0.941299 (  0.944540)
+       user     system      total        real
+compile:   0.000102   0.000776   0.910740 (  0.914640)
+       user     system      total        real
+compile:   0.000121   0.000726   0.923289 (  0.927840)
+       user     system      total        real
+compile:   0.000124   0.000751   0.915530 (  0.919267)
+=========================================
+Average compile time for n=388 is 0.9441
+=========================================

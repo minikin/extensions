@@ -6,18 +6,15 @@ from bokeh.models import HoverTool
 
 # Data for plot a
 x = [0, 100, 1000, 2000, 3000, 5000, 10000]
-class_methods = [0, 0.31, 2.011, 4.011, 6.036, 10.062, 20.22]
-class_extensions = [0, 0.314, 2.117, 4.493, 7.171, 13.209, 32.147]
-struct_methods = [0, 0.304, 1.953, 3.864, 5.84, 9.734, 19.583]
-struct_extensions = [0, 0.312, 2.18, 4.5, 7.114, 13.141, 31.756]
-
-# class_methods_private = [0, 0.677, 1.7158, 3.4679, 5.2614, 9.7713, 19.562]
-# class_extensions_private = [0, 0.1874, 1.175, 2.7621, 4.2379, 8.411, 25.3922]
+class_methods = [0, 0.3757, 2.1785, 4.2088, 6.3451, 10.4275, 21.1682]
+class_extensions = [0, 0.3756, 2.3054, 4.8083, 7.6901, 14.1323, 34.7975]
+struct_methods = [0, 0.3647, 2.1105, 4.0591, 5.9957, 10.1222, 20.5082]
+struct_extensions = [0, 0.3642, 2.2164, 4.9483, 7.2034, 13.2632, 33.7204]
 
 # Data for plot b
 x_apps = [0, 46, 144, 155, 182, 280, 381, 388]
-apps_extensions = [0, 0.209, 0.386, 0.407, 0.455, 0.639, 0.832, 0.847]
-apps_methods = [0, 0.208, 0.381, 0.422, 0.457, 0.632, 0.824, 0.854]
+apps_extensions = [0, 0.2602, 0.4401, 0.4611, 0.5453, 0.7477, 0.943, 0.9441]
+apps_methods = [0, 0.2728, 0.455, 0.4608, 0.5115, 0.7121, 0.9154, 0.9003]
 
 # output to static HTML file
 output_file("index.html")
@@ -42,8 +39,6 @@ plot_a.line(x, struct_methods, legend='Struct + Methods',
             line_color='blue', line_width=3)
 plot_a.line(x, struct_extensions, legend='Struct + Extensions',
             line_color='orangered', line_width=2, line_dash='12 6')
-# plot_a.line(x, class_methods_private, legend='Class + Private Methods', line_color='teal', line_width=2)
-# plot_a.line(x, class_extensions_private, legend='Class + Private Functions', line_color='cyan', line_width=3, line_dash='5 12')
 
 plot_a.legend.location = 'top_left'
 

@@ -1,0 +1,150 @@
+Using 100 methods
+=========================================
+       user     system      total        real
+compile:   0.000107   0.000962   0.356339 (  0.361355)
+       user     system      total        real
+compile:   0.000114   0.000703   0.355774 (  0.360497)
+       user     system      total        real
+compile:   0.000121   0.000771   0.352719 (  0.356273)
+       user     system      total        real
+compile:   0.000118   0.000709   0.358063 (  0.361374)
+       user     system      total        real
+compile:   0.000111   0.000702   0.372742 (  0.378392)
+       user     system      total        real
+compile:   0.000134   0.000710   0.378730 (  0.383355)
+       user     system      total        real
+compile:   0.000133   0.000769   0.374088 (  0.378690)
+       user     system      total        real
+compile:   0.000142   0.000666   0.367448 (  0.372976)
+       user     system      total        real
+compile:   0.000125   0.000684   0.361684 (  0.366241)
+       user     system      total        real
+compile:   0.000113   0.000658   0.369177 (  0.372984)
+=========================================
+Average compile time for n=100 is 0.3647
+=========================================
+Using 1000 methods
+=========================================
+       user     system      total        real
+compile:   0.000122   0.000709   2.193502 (  2.197222)
+       user     system      total        real
+compile:   0.000107   0.000787   2.089267 (  2.090577)
+       user     system      total        real
+compile:   0.000100   0.000750   2.167862 (  2.169632)
+       user     system      total        real
+compile:   0.000124   0.000778   2.124078 (  2.124709)
+       user     system      total        real
+compile:   0.000134   0.000774   2.043003 (  2.044105)
+       user     system      total        real
+compile:   0.000111   0.000780   2.138718 (  2.138905)
+       user     system      total        real
+compile:   0.000107   0.000781   2.131862 (  2.134279)
+       user     system      total        real
+compile:   0.000121   0.000783   2.110679 (  2.111558)
+       user     system      total        real
+compile:   0.000121   0.000741   2.069212 (  2.068394)
+       user     system      total        real
+compile:   0.000127   0.000779   2.037038 (  2.037842)
+=========================================
+Average compile time for n=1000 is 2.1105
+=========================================
+Using 2000 methods
+=========================================
+       user     system      total        real
+compile:   0.000130   0.000762   3.976413 (  3.976294)
+       user     system      total        real
+compile:   0.000112   0.000787   4.128253 (  4.128527)
+       user     system      total        real
+compile:   0.000114   0.000795   4.029939 (  4.028417)
+       user     system      total        real
+compile:   0.000115   0.000750   4.175927 (  4.177291)
+       user     system      total        real
+compile:   0.000119   0.000807   4.017250 (  4.020123)
+       user     system      total        real
+compile:   0.000115   0.000789   3.982831 (  3.982209)
+       user     system      total        real
+compile:   0.000122   0.000743   3.998022 (  3.999638)
+       user     system      total        real
+compile:   0.000125   0.000744   4.186220 (  4.185463)
+       user     system      total        real
+compile:   0.000107   0.000772   4.043289 (  4.043076)
+       user     system      total        real
+compile:   0.000120   0.000792   4.052851 (  4.049971)
+=========================================
+Average compile time for n=2000 is 4.0591
+=========================================
+Using 3000 methods
+=========================================
+       user     system      total        real
+compile:   0.000127   0.000791   5.926973 (  5.928479)
+       user     system      total        real
+compile:   0.000107   0.000826   6.046895 (  6.052401)
+       user     system      total        real
+compile:   0.000116   0.000768   5.993501 (  5.998460)
+       user     system      total        real
+compile:   0.000107   0.000788   5.953291 (  5.959933)
+       user     system      total        real
+compile:   0.000127   0.000874   5.988321 (  5.991078)
+       user     system      total        real
+compile:   0.000118   0.000829   5.947217 (  5.951795)
+       user     system      total        real
+compile:   0.000120   0.000801   5.983445 (  5.985782)
+       user     system      total        real
+compile:   0.000107   0.000823   6.049534 (  6.054301)
+       user     system      total        real
+compile:   0.000146   0.000802   6.021220 (  6.024003)
+       user     system      total        real
+compile:   0.000118   0.000859   6.046902 (  6.052853)
+=========================================
+Average compile time for n=3000 is 5.9957
+=========================================
+Using 5000 methods
+=========================================
+       user     system      total        real
+compile:   0.000105   0.000780   9.926002 (  9.937518)
+       user     system      total        real
+compile:   0.000114   0.000782  10.007277 ( 10.077291)
+       user     system      total        real
+compile:   0.000130   0.000807  10.137536 ( 10.148490)
+       user     system      total        real
+compile:   0.000131   0.000777   9.976021 (  9.989426)
+       user     system      total        real
+compile:   0.000108   0.000825   9.949117 (  9.958469)
+       user     system      total        real
+compile:   0.000115   0.000820  10.231973 ( 10.240235)
+       user     system      total        real
+compile:   0.000123   0.000801  10.208450 ( 10.221195)
+       user     system      total        real
+compile:   0.000118   0.000808  10.246297 ( 10.256283)
+       user     system      total        real
+compile:   0.000116   0.000791  10.206875 ( 10.214434)
+       user     system      total        real
+compile:   0.000123   0.000758  10.332873 ( 10.343327)
+=========================================
+Average compile time for n=5000 is 10.1222
+=========================================
+Using 10000 methods
+=========================================
+       user     system      total        real
+compile:   0.000146   0.000938  20.512129 ( 20.536621)
+       user     system      total        real
+compile:   0.000138   0.000831  20.399543 ( 20.424038)
+       user     system      total        real
+compile:   0.000123   0.000837  20.541078 ( 20.564271)
+       user     system      total        real
+compile:   0.000125   0.000847  20.062250 ( 20.085807)
+       user     system      total        real
+compile:   0.000137   0.000856  20.095210 ( 20.122045)
+       user     system      total        real
+compile:   0.000121   0.000764  20.566034 ( 20.591697)
+       user     system      total        real
+compile:   0.000158   0.000853  20.840724 ( 20.866897)
+       user     system      total        real
+compile:   0.000110   0.000846  20.624673 ( 20.650550)
+       user     system      total        real
+compile:   0.000141   0.000847  20.841699 ( 20.877409)
+       user     system      total        real
+compile:   0.000133   0.000836  20.598657 ( 20.625389)
+=========================================
+Average compile time for n=10000 is 20.5082
+=========================================
