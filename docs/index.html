@@ -2,9 +2,8 @@
 <html lang="en">
 
 <head>
-
   <meta charset="utf-8">
-  <title>Benchmark of Swift extensions vs methods(Swift 5.0, April, 2019)</title>
+  <title>Benchmark of Swift extensions vs methods(Swift 5.1, November, 2019)</title>
   <link rel="stylesheet" href="https://cdn.pydata.org/bokeh/release/bokeh-1.1.0.min.css" type="text/css" />
   <script type="text/javascript" src="https://cdn.pydata.org/bokeh/release/bokeh-1.1.0.min.js"></script>
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.11/css/all.css">
@@ -23,8 +22,6 @@
       margin: auto;
     }
   </style>
-
-
 </head>
 
 <body>
@@ -39,13 +36,67 @@
       Read more about the project
     </a>
   </center>
-
-  <div class="bk-root" id="da418b99-f8d7-4460-9ab2-b7c422d2abd9" data-root-id="1153"></div>
+  <div class="bk-root" id="d9d049d4-dc5d-4f6d-bb90-8b0cbe23e341" data-root-id="1153"></div>
   <script type="application/json" id="1379">
     {
-      "732fee18-6e58-423e-9ae2-4e86fc4c45a6": {
+      "75a5a1bd-47af-40ae-9587-7492baa161ef": {
         "roots": {
           "references": [{
+            "attributes": {},
+            "id": "1071",
+            "type": "Selection"
+          }, {
+            "attributes": {
+              "bounds": [0, 2000],
+              "dimension": 1,
+              "ticker": {
+                "id": "1018",
+                "type": "BasicTicker"
+              }
+            },
+            "id": "1021",
+            "type": "Grid"
+          }, {
+            "attributes": {
+              "callback": null,
+              "data": {
+                "x": [0, 46, 144, 155, 182, 280, 381, 388],
+                "y": [0, 0.2602, 0.4401, 0.4611, 0.5453, 0.7477, 0.943, 0.9441]
+              },
+              "selected": {
+                "id": "1148",
+                "type": "Selection"
+              },
+              "selection_policy": {
+                "id": "1149",
+                "type": "UnionRenderers"
+              }
+            },
+            "id": "1122",
+            "type": "ColumnDataSource"
+          }, {
+            "attributes": {},
+            "id": "1018",
+            "type": "BasicTicker"
+          }, {
+            "attributes": {},
+            "id": "1072",
+            "type": "UnionRenderers"
+          }, {
+            "attributes": {
+              "axis_label": "compilation time, s",
+              "formatter": {
+                "id": "1037",
+                "type": "BasicTickFormatter"
+              },
+              "ticker": {
+                "id": "1018",
+                "type": "BasicTicker"
+              }
+            },
+            "id": "1017",
+            "type": "LinearAxis"
+          }, {
             "attributes": {
               "line_alpha": 0.1,
               "line_color": "#1f77b4",
@@ -57,61 +108,165 @@
                 "field": "y"
               }
             },
-            "id": "1033",
+            "id": "1124",
             "type": "Line"
           }, {
             "attributes": {
-              "label": {
-                "value": "Struct + Extensions"
+              "line_color": "orangered",
+              "line_dash": [12, 6],
+              "line_width": 2,
+              "x": {
+                "field": "x"
               },
-              "renderers": [{
-                "id": "1077",
-                "type": "GlyphRenderer"
-              }]
-            },
-            "id": "1091",
-            "type": "LegendItem"
-          }, {
-            "attributes": {
-              "source": {
-                "id": "1136",
-                "type": "ColumnDataSource"
+              "y": {
+                "field": "y"
               }
             },
-            "id": "1140",
-            "type": "CDSView"
+            "id": "1075",
+            "type": "Line"
           }, {
             "attributes": {
               "callback": null,
               "data": {
-                "colors": ["white", "orangered", "coral", "darkturquoise", "lawngreen", "green", "dodgerblue",
-                  "deeppink"
-                ],
-                "desc": ["", "The Artsy Auction Kiosk App", "CotEditor for macOS", "Yep for iOS", "Firefox for iOS",
-                  "Kickstarter for iOS", "Wire for iOS", "WordPress for iOS"
-                ],
-                "x": [0, 46, 144, 155, 182, 280, 381, 388],
-                "y": [0, 0.209, 0.386, 0.407, 0.455, 0.639, 0.832, 0.847]
+                "x": [0, 100, 1000, 2000, 3000, 5000, 10000],
+                "y": [0, 0.3757, 2.1785, 4.2088, 6.3451, 10.4275, 21.1682]
               },
               "selected": {
-                "id": "1133",
+                "id": "1055",
                 "type": "Selection"
               },
               "selection_policy": {
-                "id": "1132",
+                "id": "1056",
                 "type": "UnionRenderers"
               }
             },
-            "id": "1092",
+            "id": "1031",
             "type": "ColumnDataSource"
+          }, {
+            "attributes": {
+              "data_source": {
+                "id": "1122",
+                "type": "ColumnDataSource"
+              },
+              "glyph": {
+                "id": "1123",
+                "type": "Line"
+              },
+              "hover_glyph": null,
+              "muted_glyph": null,
+              "nonselection_glyph": {
+                "id": "1124",
+                "type": "Line"
+              },
+              "selection_glyph": null,
+              "view": {
+                "id": "1126",
+                "type": "CDSView"
+              }
+            },
+            "id": "1125",
+            "type": "GlyphRenderer"
+          }, {
+            "attributes": {
+              "data_source": {
+                "id": "1074",
+                "type": "ColumnDataSource"
+              },
+              "glyph": {
+                "id": "1075",
+                "type": "Line"
+              },
+              "hover_glyph": null,
+              "muted_glyph": null,
+              "nonselection_glyph": {
+                "id": "1076",
+                "type": "Line"
+              },
+              "selection_glyph": null,
+              "view": {
+                "id": "1078",
+                "type": "CDSView"
+              }
+            },
+            "id": "1077",
+            "type": "GlyphRenderer"
+          }, {
+            "attributes": {
+              "line_color": "blue",
+              "line_dash": [4, 4],
+              "line_width": 2,
+              "x": {
+                "field": "x"
+              },
+              "y": {
+                "field": "y"
+              }
+            },
+            "id": "1137",
+            "type": "Line"
           }, {
             "attributes": {},
             "id": "1022",
             "type": "PanTool"
           }, {
+            "attributes": {
+              "callback": null,
+              "data": {
+                "x": [0, 100, 1000, 2000, 3000, 5000, 10000],
+                "y": [0, 0.3642, 2.2164, 4.9483, 7.2034, 13.2632, 33.7204]
+              },
+              "selected": {
+                "id": "1171",
+                "type": "Selection"
+              },
+              "selection_policy": {
+                "id": "1172",
+                "type": "UnionRenderers"
+              }
+            },
+            "id": "1074",
+            "type": "ColumnDataSource"
+          }, {
+            "attributes": {
+              "source": {
+                "id": "1122",
+                "type": "ColumnDataSource"
+              }
+            },
+            "id": "1126",
+            "type": "CDSView"
+          }, {
+            "attributes": {
+              "line_alpha": 0.1,
+              "line_color": "#1f77b4",
+              "line_dash": [12, 6],
+              "line_width": 2,
+              "x": {
+                "field": "x"
+              },
+              "y": {
+                "field": "y"
+              }
+            },
+            "id": "1076",
+            "type": "Line"
+          }, {
             "attributes": {},
-            "id": "1148",
-            "type": "UnionRenderers"
+            "id": "1128",
+            "type": "BasicTickFormatter"
+          }, {
+            "attributes": {
+              "items": [{
+                "id": "1135",
+                "type": "LegendItem"
+              }, {
+                "id": "1150",
+                "type": "LegendItem"
+              }],
+              "location": "top_left"
+            },
+            "id": "1134",
+            "type": "Legend"
           }, {
             "attributes": {
               "overlay": {
@@ -122,9 +277,18 @@
             "id": "1023",
             "type": "BoxZoomTool"
           }, {
+            "attributes": {
+              "source": {
+                "id": "1074",
+                "type": "ColumnDataSource"
+              }
+            },
+            "id": "1078",
+            "type": "CDSView"
+          }, {
             "attributes": {},
-            "id": "1149",
-            "type": "Selection"
+            "id": "1130",
+            "type": "BasicTickFormatter"
           }, {
             "attributes": {
               "below": [{
@@ -186,68 +350,37 @@
             "subtype": "Figure",
             "type": "Plot"
           }, {
-            "attributes": {
-              "label": {
-                "value": "Class + Methods"
-              },
-              "renderers": [{
-                "id": "1139",
-                "type": "GlyphRenderer"
-              }]
-            },
-            "id": "1150",
-            "type": "LegendItem"
-          }, {
             "attributes": {},
             "id": "1024",
             "type": "ResetTool"
           }, {
-            "attributes": {
-              "callback": null,
-              "mode": "vline",
-              "renderers": [{
-                "id": "1120",
-                "type": "GlyphRenderer"
-              }],
-              "tooltips": [
-                ["Application", "@desc"],
-                ["Extensions", "@x{0}"],
-                ["Compilation time", "$y"]
-              ]
-            },
-            "id": "1151",
-            "type": "HoverTool"
+            "attributes": {},
+            "id": "1132",
+            "type": "Selection"
           }, {
-            "attributes": {
-              "text": "Swift extensions in real world apps"
-            },
-            "id": "1094",
-            "type": "Title"
-          }, {
-            "attributes": {
-              "children": [{
-                "id": "1001",
-                "subtype": "Figure",
-                "type": "Plot"
-              }, {
-                "id": "1093",
-                "subtype": "Figure",
-                "type": "Plot"
-              }],
-              "sizing_mode": "scale_width"
-            },
-            "id": "1153",
-            "type": "Column"
+            "attributes": {},
+            "id": "1089",
+            "type": "Selection"
           }, {
             "attributes": {},
             "id": "1025",
             "type": "SaveTool"
           }, {
+            "attributes": {},
+            "id": "1133",
+            "type": "UnionRenderers"
+          }, {
             "attributes": {
-              "callback": null
+              "label": {
+                "value": "Struct + Extensions"
+              },
+              "renderers": [{
+                "id": "1077",
+                "type": "GlyphRenderer"
+              }]
             },
-            "id": "1096",
-            "type": "DataRange1d"
+            "id": "1091",
+            "type": "LegendItem"
           }, {
             "attributes": {
               "active_drag": "auto",
@@ -272,10 +405,54 @@
             "id": "1026",
             "type": "Toolbar"
           }, {
+            "attributes": {},
+            "id": "1090",
+            "type": "UnionRenderers"
+          }, {
+            "attributes": {
+              "line_color": "orange",
+              "line_dash": [4, 4],
+              "line_width": 3,
+              "x": {
+                "field": "x"
+              },
+              "y": {
+                "field": "y"
+              }
+            },
+            "id": "1045",
+            "type": "Line"
+          }, {
+            "attributes": {
+              "label": {
+                "value": "Struct + Extensions"
+              },
+              "renderers": [{
+                "id": "1125",
+                "type": "GlyphRenderer"
+              }]
+            },
+            "id": "1135",
+            "type": "LegendItem"
+          }, {
+            "attributes": {
+              "line_alpha": 0.1,
+              "line_color": "#1f77b4",
+              "line_width": 2,
+              "x": {
+                "field": "x"
+              },
+              "y": {
+                "field": "y"
+              }
+            },
+            "id": "1033",
+            "type": "Line"
+          }, {
             "attributes": {
               "callback": null
             },
-            "id": "1098",
+            "id": "1096",
             "type": "DataRange1d"
           }, {
             "attributes": {
@@ -302,9 +479,56 @@
             "id": "1034",
             "type": "GlyphRenderer"
           }, {
-            "attributes": {},
-            "id": "1100",
-            "type": "LinearScale"
+            "attributes": {
+              "callback": null,
+              "data": {
+                "colors": ["white", "orangered", "coral", "darkturquoise", "lawngreen", "green", "dodgerblue",
+                  "deeppink"
+                ],
+                "desc": ["", "The Artsy Auction Kiosk App", "CotEditor for macOS", "Yep for iOS", "Firefox for iOS",
+                  "Kickstarter for iOS", "Wire for iOS", "WordPress for iOS"
+                ],
+                "x": [0, 46, 144, 155, 182, 280, 381, 388],
+                "y": [0, 0.2602, 0.4401, 0.4611, 0.5453, 0.7477, 0.943, 0.9441]
+              },
+              "selected": {
+                "id": "1132",
+                "type": "Selection"
+              },
+              "selection_policy": {
+                "id": "1133",
+                "type": "UnionRenderers"
+              }
+            },
+            "id": "1092",
+            "type": "ColumnDataSource"
+          }, {
+            "attributes": {
+              "source": {
+                "id": "1136",
+                "type": "ColumnDataSource"
+              }
+            },
+            "id": "1140",
+            "type": "CDSView"
+          }, {
+            "attributes": {
+              "callback": null,
+              "data": {
+                "x": [0, 46, 144, 155, 182, 280, 381, 388],
+                "y": [0, 0.2728, 0.455, 0.4608, 0.5115, 0.7121, 0.9154, 0.9003]
+              },
+              "selected": {
+                "id": "1177",
+                "type": "Selection"
+              },
+              "selection_policy": {
+                "id": "1178",
+                "type": "UnionRenderers"
+              }
+            },
+            "id": "1136",
+            "type": "ColumnDataSource"
           }, {
             "attributes": {
               "source": {
@@ -315,47 +539,111 @@
             "id": "1035",
             "type": "CDSView"
           }, {
-            "attributes": {},
-            "id": "1102",
-            "type": "LinearScale"
-          }, {
-            "attributes": {},
-            "id": "1171",
-            "type": "UnionRenderers"
-          }, {
-            "attributes": {},
-            "id": "1038",
-            "type": "BasicTickFormatter"
-          }, {
             "attributes": {
-              "axis_label": "approximate number of extensions in apps",
-              "formatter": {
-                "id": "1131",
-                "type": "BasicTickFormatter"
-              },
-              "ticker": {
-                "id": "1105",
-                "type": "BasicTicker"
+              "source": {
+                "id": "1092",
+                "type": "ColumnDataSource"
               }
             },
-            "id": "1104",
-            "type": "LinearAxis"
+            "id": "1121",
+            "type": "CDSView"
+          }, {
+            "attributes": {
+              "line_alpha": 0.1,
+              "line_color": "#1f77b4",
+              "line_dash": [4, 4],
+              "line_width": 2,
+              "x": {
+                "field": "x"
+              },
+              "y": {
+                "field": "y"
+              }
+            },
+            "id": "1138",
+            "type": "Line"
           }, {
             "attributes": {},
-            "id": "1172",
-            "type": "Selection"
-          }, {
-            "attributes": {},
-            "id": "1040",
-            "type": "BasicTickFormatter"
-          }, {
-            "attributes": {},
-            "id": "1105",
+            "id": "1013",
             "type": "BasicTicker"
           }, {
             "attributes": {},
-            "id": "1177",
-            "type": "UnionRenderers"
+            "id": "1039",
+            "type": "BasicTickFormatter"
+          }, {
+            "attributes": {},
+            "id": "1037",
+            "type": "BasicTickFormatter"
+          }, {
+            "attributes": {
+              "fill_color": {
+                "field": "colors"
+              },
+              "line_color": {
+                "value": "white"
+              },
+              "size": {
+                "units": "screen",
+                "value": 25
+              },
+              "x": {
+                "field": "x"
+              },
+              "y": {
+                "field": "y"
+              }
+            },
+            "id": "1118",
+            "type": "Circle"
+          }, {
+            "attributes": {
+              "items": [{
+                "id": "1043",
+                "type": "LegendItem"
+              }, {
+                "id": "1057",
+                "type": "LegendItem"
+              }, {
+                "id": "1073",
+                "type": "LegendItem"
+              }, {
+                "id": "1091",
+                "type": "LegendItem"
+              }],
+              "location": "top_left"
+            },
+            "id": "1042",
+            "type": "Legend"
+          }, {
+            "attributes": {
+              "data_source": {
+                "id": "1136",
+                "type": "ColumnDataSource"
+              },
+              "glyph": {
+                "id": "1137",
+                "type": "Line"
+              },
+              "hover_glyph": null,
+              "muted_glyph": null,
+              "nonselection_glyph": {
+                "id": "1138",
+                "type": "Line"
+              },
+              "selection_glyph": null,
+              "view": {
+                "id": "1140",
+                "type": "CDSView"
+              }
+            },
+            "id": "1139",
+            "type": "GlyphRenderer"
+          }, {
+            "attributes": {
+              "text": "Swift extensions in real world apps"
+            },
+            "id": "1094",
+            "type": "Title"
           }, {
             "attributes": {
               "bottom_units": "screen",
@@ -384,51 +672,25 @@
             "id": "1041",
             "type": "BoxAnnotation"
           }, {
-            "attributes": {
-              "ticker": {
-                "id": "1105",
-                "type": "BasicTicker"
-              }
-            },
-            "id": "1108",
-            "type": "Grid"
+            "attributes": {},
+            "id": "1100",
+            "type": "LinearScale"
           }, {
             "attributes": {},
-            "id": "1178",
+            "id": "1148",
             "type": "Selection"
           }, {
             "attributes": {
-              "items": [{
-                "id": "1043",
-                "type": "LegendItem"
-              }, {
-                "id": "1057",
-                "type": "LegendItem"
-              }, {
-                "id": "1073",
-                "type": "LegendItem"
-              }, {
-                "id": "1091",
-                "type": "LegendItem"
-              }],
-              "location": "top_left"
-            },
-            "id": "1042",
-            "type": "Legend"
-          }, {
-            "attributes": {
-              "axis_label": "compilation time, s",
-              "formatter": {
-                "id": "1129",
-                "type": "BasicTickFormatter"
+              "label": {
+                "value": "Class + Methods"
               },
-              "ticker": {
-                "id": "1110",
-                "type": "BasicTicker"
-              }
+              "renderers": [{
+                "id": "1139",
+                "type": "GlyphRenderer"
+              }]
             },
-            "id": "1109",
-            "type": "LinearAxis"
+            "id": "1150",
+            "type": "LegendItem"
           }, {
             "attributes": {
               "label": {
@@ -442,147 +704,42 @@
             "id": "1043",
             "type": "LegendItem"
           }, {
-            "attributes": {},
-            "id": "1110",
-            "type": "BasicTicker"
-          }, {
             "attributes": {
               "callback": null,
-              "data": {
-                "x": [0, 100, 1000, 2000, 3000, 5000, 10000],
-                "y": [0, 0.314, 2.117, 4.493, 7.171, 13.209, 32.147]
-              },
-              "selected": {
-                "id": "1072",
-                "type": "Selection"
-              },
-              "selection_policy": {
-                "id": "1071",
-                "type": "UnionRenderers"
-              }
+              "mode": "vline",
+              "renderers": [{
+                "id": "1120",
+                "type": "GlyphRenderer"
+              }],
+              "tooltips": [
+                ["Application", "@desc"],
+                ["Extensions", "@x{0}"],
+                ["Compilation time", "$y"]
+              ]
             },
-            "id": "1044",
-            "type": "ColumnDataSource"
+            "id": "1151",
+            "type": "HoverTool"
           }, {
             "attributes": {
-              "dimension": 1,
-              "ticker": {
-                "id": "1110",
-                "type": "BasicTicker"
-              }
+              "callback": null
             },
-            "id": "1113",
-            "type": "Grid"
+            "id": "1098",
+            "type": "DataRange1d"
           }, {
             "attributes": {
-              "text": "Benchmark of Swift extensions vs methods"
-            },
-            "id": "1002",
-            "type": "Title"
-          }, {
-            "attributes": {
-              "line_color": "orange",
-              "line_dash": [4, 4],
-              "line_width": 3,
-              "x": {
-                "field": "x"
-              },
-              "y": {
-                "field": "y"
-              }
-            },
-            "id": "1045",
-            "type": "Line"
-          }, {
-            "attributes": {
-              "active_drag": "auto",
-              "active_inspect": "auto",
-              "active_multi": null,
-              "active_scroll": "auto",
-              "active_tap": "auto",
-              "tools": [{
-                "id": "1114",
-                "type": "SaveTool"
+              "children": [{
+                "id": "1001",
+                "subtype": "Figure",
+                "type": "Plot"
               }, {
-                "id": "1151",
-                "type": "HoverTool"
-              }]
+                "id": "1093",
+                "subtype": "Figure",
+                "type": "Plot"
+              }],
+              "sizing_mode": "scale_width"
             },
-            "id": "1115",
-            "type": "Toolbar"
-          }, {
-            "attributes": {},
-            "id": "1114",
-            "type": "SaveTool"
-          }, {
-            "attributes": {
-              "line_alpha": 0.1,
-              "line_color": "#1f77b4",
-              "line_dash": [4, 4],
-              "line_width": 3,
-              "x": {
-                "field": "x"
-              },
-              "y": {
-                "field": "y"
-              }
-            },
-            "id": "1046",
-            "type": "Line"
-          }, {
-            "attributes": {
-              "data_source": {
-                "id": "1044",
-                "type": "ColumnDataSource"
-              },
-              "glyph": {
-                "id": "1045",
-                "type": "Line"
-              },
-              "hover_glyph": null,
-              "muted_glyph": null,
-              "nonselection_glyph": {
-                "id": "1046",
-                "type": "Line"
-              },
-              "selection_glyph": null,
-              "view": {
-                "id": "1048",
-                "type": "CDSView"
-              }
-            },
-            "id": "1047",
-            "type": "GlyphRenderer"
-          }, {
-            "attributes": {
-              "fill_color": {
-                "field": "colors"
-              },
-              "line_color": {
-                "value": "white"
-              },
-              "size": {
-                "units": "screen",
-                "value": 25
-              },
-              "x": {
-                "field": "x"
-              },
-              "y": {
-                "field": "y"
-              }
-            },
-            "id": "1118",
-            "type": "Circle"
-          }, {
-            "attributes": {
-              "source": {
-                "id": "1044",
-                "type": "ColumnDataSource"
-              }
-            },
-            "id": "1048",
-            "type": "CDSView"
+            "id": "1153",
+            "type": "Column"
           }, {
             "attributes": {
               "fill_alpha": {
@@ -611,137 +768,18 @@
             "id": "1119",
             "type": "Circle"
           }, {
-            "attributes": {},
-            "id": "1055",
-            "type": "UnionRenderers"
-          }, {
-            "attributes": {
-              "data_source": {
-                "id": "1092",
-                "type": "ColumnDataSource"
-              },
-              "glyph": {
-                "id": "1118",
-                "type": "Circle"
-              },
-              "hover_glyph": null,
-              "muted_glyph": null,
-              "nonselection_glyph": {
-                "id": "1119",
-                "type": "Circle"
-              },
-              "selection_glyph": null,
-              "view": {
-                "id": "1121",
-                "type": "CDSView"
-              }
-            },
-            "id": "1120",
-            "type": "GlyphRenderer"
-          }, {
-            "attributes": {},
-            "id": "1056",
-            "type": "Selection"
-          }, {
             "attributes": {
               "source": {
-                "id": "1092",
+                "id": "1044",
                 "type": "ColumnDataSource"
               }
             },
-            "id": "1121",
+            "id": "1048",
             "type": "CDSView"
           }, {
-            "attributes": {
-              "line_color": "midnightblue",
-              "line_width": 2,
-              "x": {
-                "field": "x"
-              },
-              "y": {
-                "field": "y"
-              }
-            },
-            "id": "1032",
-            "type": "Line"
-          }, {
-            "attributes": {
-              "label": {
-                "value": "Class + Extensions"
-              },
-              "renderers": [{
-                "id": "1047",
-                "type": "GlyphRenderer"
-              }]
-            },
-            "id": "1057",
-            "type": "LegendItem"
-          }, {
-            "attributes": {
-              "callback": null,
-              "data": {
-                "x": [0, 46, 144, 155, 182, 280, 381, 388],
-                "y": [0, 0.209, 0.386, 0.407, 0.455, 0.639, 0.832, 0.847]
-              },
-              "selected": {
-                "id": "1149",
-                "type": "Selection"
-              },
-              "selection_policy": {
-                "id": "1148",
-                "type": "UnionRenderers"
-              }
-            },
-            "id": "1122",
-            "type": "ColumnDataSource"
-          }, {
-            "attributes": {
-              "callback": null,
-              "data": {
-                "x": [0, 100, 1000, 2000, 3000, 5000, 10000],
-                "y": [0, 0.304, 1.953, 3.864, 5.84, 9.734, 19.583]
-              },
-              "selected": {
-                "id": "1090",
-                "type": "Selection"
-              },
-              "selection_policy": {
-                "id": "1089",
-                "type": "UnionRenderers"
-              }
-            },
-            "id": "1058",
-            "type": "ColumnDataSource"
-          }, {
             "attributes": {},
-            "id": "1090",
-            "type": "Selection"
-          }, {
-            "attributes": {
-              "line_color": "red",
-              "line_width": 2,
-              "x": {
-                "field": "x"
-              },
-              "y": {
-                "field": "y"
-              }
-            },
-            "id": "1123",
-            "type": "Line"
-          }, {
-            "attributes": {
-              "line_color": "blue",
-              "line_width": 3,
-              "x": {
-                "field": "x"
-              },
-              "y": {
-                "field": "y"
-              }
-            },
-            "id": "1059",
-            "type": "Line"
+            "id": "1102",
+            "type": "LinearScale"
           }, {
             "attributes": {
               "below": [{
@@ -807,8 +845,101 @@
             "type": "Plot"
           }, {
             "attributes": {
+              "callback": null,
+              "data": {
+                "x": [0, 100, 1000, 2000, 3000, 5000, 10000],
+                "y": [0, 0.3756, 2.3054, 4.8083, 7.6901, 14.1323, 34.7975]
+              },
+              "selected": {
+                "id": "1071",
+                "type": "Selection"
+              },
+              "selection_policy": {
+                "id": "1072",
+                "type": "UnionRenderers"
+              }
+            },
+            "id": "1044",
+            "type": "ColumnDataSource"
+          }, {
+            "attributes": {
+              "axis_label": "approximate number of extensions in apps",
+              "formatter": {
+                "id": "1130",
+                "type": "BasicTickFormatter"
+              },
+              "ticker": {
+                "id": "1105",
+                "type": "BasicTicker"
+              }
+            },
+            "id": "1104",
+            "type": "LinearAxis"
+          }, {
+            "attributes": {
               "line_alpha": 0.1,
               "line_color": "#1f77b4",
+              "line_dash": [4, 4],
+              "line_width": 3,
+              "x": {
+                "field": "x"
+              },
+              "y": {
+                "field": "y"
+              }
+            },
+            "id": "1046",
+            "type": "Line"
+          }, {
+            "attributes": {
+              "dimension": 1,
+              "ticker": {
+                "id": "1110",
+                "type": "BasicTicker"
+              }
+            },
+            "id": "1113",
+            "type": "Grid"
+          }, {
+            "attributes": {},
+            "id": "1105",
+            "type": "BasicTicker"
+          }, {
+            "attributes": {
+              "data_source": {
+                "id": "1044",
+                "type": "ColumnDataSource"
+              },
+              "glyph": {
+                "id": "1045",
+                "type": "Line"
+              },
+              "hover_glyph": null,
+              "muted_glyph": null,
+              "nonselection_glyph": {
+                "id": "1046",
+                "type": "Line"
+              },
+              "selection_glyph": null,
+              "view": {
+                "id": "1048",
+                "type": "CDSView"
+              }
+            },
+            "id": "1047",
+            "type": "GlyphRenderer"
+          }, {
+            "attributes": {
+              "ticker": {
+                "id": "1105",
+                "type": "BasicTicker"
+              }
+            },
+            "id": "1108",
+            "type": "Grid"
+          }, {
+            "attributes": {
+              "line_color": "midnightblue",
               "line_width": 2,
               "x": {
                 "field": "x"
@@ -817,8 +948,189 @@
                 "field": "y"
               }
             },
-            "id": "1124",
+            "id": "1032",
             "type": "Line"
+          }, {
+            "attributes": {},
+            "id": "1110",
+            "type": "BasicTicker"
+          }, {
+            "attributes": {},
+            "id": "1055",
+            "type": "Selection"
+          }, {
+            "attributes": {
+              "text": "Benchmark of Swift extensions vs methods"
+            },
+            "id": "1002",
+            "type": "Title"
+          }, {
+            "attributes": {
+              "axis_label": "compilation time, s",
+              "formatter": {
+                "id": "1128",
+                "type": "BasicTickFormatter"
+              },
+              "ticker": {
+                "id": "1110",
+                "type": "BasicTicker"
+              }
+            },
+            "id": "1109",
+            "type": "LinearAxis"
+          }, {
+            "attributes": {},
+            "id": "1171",
+            "type": "Selection"
+          }, {
+            "attributes": {
+              "label": {
+                "value": "Class + Extensions"
+              },
+              "renderers": [{
+                "id": "1047",
+                "type": "GlyphRenderer"
+              }]
+            },
+            "id": "1057",
+            "type": "LegendItem"
+          }, {
+            "attributes": {
+              "callback": null
+            },
+            "id": "1004",
+            "type": "DataRange1d"
+          }, {
+            "attributes": {},
+            "id": "1172",
+            "type": "UnionRenderers"
+          }, {
+            "attributes": {},
+            "id": "1056",
+            "type": "UnionRenderers"
+          }, {
+            "attributes": {},
+            "id": "1149",
+            "type": "UnionRenderers"
+          }, {
+            "attributes": {
+              "active_drag": "auto",
+              "active_inspect": "auto",
+              "active_multi": null,
+              "active_scroll": "auto",
+              "active_tap": "auto",
+              "tools": [{
+                "id": "1114",
+                "type": "SaveTool"
+              }, {
+                "id": "1151",
+                "type": "HoverTool"
+              }]
+            },
+            "id": "1115",
+            "type": "Toolbar"
+          }, {
+            "attributes": {},
+            "id": "1177",
+            "type": "Selection"
+          }, {
+            "attributes": {
+              "line_color": "blue",
+              "line_width": 3,
+              "x": {
+                "field": "x"
+              },
+              "y": {
+                "field": "y"
+              }
+            },
+            "id": "1059",
+            "type": "Line"
+          }, {
+            "attributes": {},
+            "id": "1008",
+            "type": "LinearScale"
+          }, {
+            "attributes": {
+              "label": {
+                "value": "Struct + Methods"
+              },
+              "renderers": [{
+                "id": "1061",
+                "type": "GlyphRenderer"
+              }]
+            },
+            "id": "1073",
+            "type": "LegendItem"
+          }, {
+            "attributes": {},
+            "id": "1114",
+            "type": "SaveTool"
+          }, {
+            "attributes": {},
+            "id": "1178",
+            "type": "UnionRenderers"
+          }, {
+            "attributes": {
+              "data_source": {
+                "id": "1092",
+                "type": "ColumnDataSource"
+              },
+              "glyph": {
+                "id": "1118",
+                "type": "Circle"
+              },
+              "hover_glyph": null,
+              "muted_glyph": null,
+              "nonselection_glyph": {
+                "id": "1119",
+                "type": "Circle"
+              },
+              "selection_glyph": null,
+              "view": {
+                "id": "1121",
+                "type": "CDSView"
+              }
+            },
+            "id": "1120",
+            "type": "GlyphRenderer"
+          }, {
+            "attributes": {
+              "callback": null,
+              "data": {
+                "x": [0, 100, 1000, 2000, 3000, 5000, 10000],
+                "y": [0, 0.3647, 2.1105, 4.0591, 5.9957, 10.1222, 20.5082]
+              },
+              "selected": {
+                "id": "1089",
+                "type": "Selection"
+              },
+              "selection_policy": {
+                "id": "1090",
+                "type": "UnionRenderers"
+              }
+            },
+            "id": "1058",
+            "type": "ColumnDataSource"
+          }, {
+            "attributes": {
+              "line_color": "red",
+              "line_width": 2,
+              "x": {
+                "field": "x"
+              },
+              "y": {
+                "field": "y"
+              }
+            },
+            "id": "1123",
+            "type": "Line"
+          }, {
+            "attributes": {
+              "callback": null
+            },
+            "id": "1006",
+            "type": "DataRange1d"
           }, {
             "attributes": {
               "line_alpha": 0.1,
@@ -834,29 +1146,9 @@
             "id": "1060",
             "type": "Line"
           }, {
-            "attributes": {
-              "data_source": {
-                "id": "1122",
-                "type": "ColumnDataSource"
-              },
-              "glyph": {
-                "id": "1123",
-                "type": "Line"
-              },
-              "hover_glyph": null,
-              "muted_glyph": null,
-              "nonselection_glyph": {
-                "id": "1124",
-                "type": "Line"
-              },
-              "selection_glyph": null,
-              "view": {
-                "id": "1126",
-                "type": "CDSView"
-              }
-            },
-            "id": "1125",
-            "type": "GlyphRenderer"
+            "attributes": {},
+            "id": "1010",
+            "type": "LinearScale"
           }, {
             "attributes": {
               "data_source": {
@@ -883,143 +1175,6 @@
             "type": "GlyphRenderer"
           }, {
             "attributes": {
-              "callback": null
-            },
-            "id": "1004",
-            "type": "DataRange1d"
-          }, {
-            "attributes": {
-              "source": {
-                "id": "1122",
-                "type": "ColumnDataSource"
-              }
-            },
-            "id": "1126",
-            "type": "CDSView"
-          }, {
-            "attributes": {
-              "source": {
-                "id": "1058",
-                "type": "ColumnDataSource"
-              }
-            },
-            "id": "1062",
-            "type": "CDSView"
-          }, {
-            "attributes": {
-              "callback": null
-            },
-            "id": "1006",
-            "type": "DataRange1d"
-          }, {
-            "attributes": {},
-            "id": "1129",
-            "type": "BasicTickFormatter"
-          }, {
-            "attributes": {},
-            "id": "1071",
-            "type": "UnionRenderers"
-          }, {
-            "attributes": {},
-            "id": "1008",
-            "type": "LinearScale"
-          }, {
-            "attributes": {},
-            "id": "1131",
-            "type": "BasicTickFormatter"
-          }, {
-            "attributes": {},
-            "id": "1072",
-            "type": "Selection"
-          }, {
-            "attributes": {},
-            "id": "1010",
-            "type": "LinearScale"
-          }, {
-            "attributes": {},
-            "id": "1132",
-            "type": "UnionRenderers"
-          }, {
-            "attributes": {
-              "label": {
-                "value": "Struct + Methods"
-              },
-              "renderers": [{
-                "id": "1061",
-                "type": "GlyphRenderer"
-              }]
-            },
-            "id": "1073",
-            "type": "LegendItem"
-          }, {
-            "attributes": {
-              "axis_label": "number of methods/extensions",
-              "formatter": {
-                "id": "1040",
-                "type": "BasicTickFormatter"
-              },
-              "ticker": {
-                "id": "1013",
-                "type": "BasicTicker"
-              }
-            },
-            "id": "1012",
-            "type": "LinearAxis"
-          }, {
-            "attributes": {},
-            "id": "1133",
-            "type": "Selection"
-          }, {
-            "attributes": {
-              "callback": null,
-              "data": {
-                "x": [0, 100, 1000, 2000, 3000, 5000, 10000],
-                "y": [0, 0.312, 2.18, 4.5, 7.114, 13.141, 31.756]
-              },
-              "selected": {
-                "id": "1172",
-                "type": "Selection"
-              },
-              "selection_policy": {
-                "id": "1171",
-                "type": "UnionRenderers"
-              }
-            },
-            "id": "1074",
-            "type": "ColumnDataSource"
-          }, {
-            "attributes": {
-              "items": [{
-                "id": "1135",
-                "type": "LegendItem"
-              }, {
-                "id": "1150",
-                "type": "LegendItem"
-              }],
-              "location": "top_left"
-            },
-            "id": "1134",
-            "type": "Legend"
-          }, {
-            "attributes": {},
-            "id": "1013",
-            "type": "BasicTicker"
-          }, {
-            "attributes": {
-              "line_color": "orangered",
-              "line_dash": [12, 6],
-              "line_width": 2,
-              "x": {
-                "field": "x"
-              },
-              "y": {
-                "field": "y"
-              }
-            },
-            "id": "1075",
-            "type": "Line"
-          }, {
-            "attributes": {
               "bounds": [0, 2000],
               "ticker": {
                 "id": "1013",
@@ -1030,186 +1185,27 @@
             "type": "Grid"
           }, {
             "attributes": {
-              "label": {
-                "value": "Struct + Extensions"
-              },
-              "renderers": [{
-                "id": "1125",
-                "type": "GlyphRenderer"
-              }]
-            },
-            "id": "1135",
-            "type": "LegendItem"
-          }, {
-            "attributes": {
-              "line_alpha": 0.1,
-              "line_color": "#1f77b4",
-              "line_dash": [12, 6],
-              "line_width": 2,
-              "x": {
-                "field": "x"
-              },
-              "y": {
-                "field": "y"
-              }
-            },
-            "id": "1076",
-            "type": "Line"
-          }, {
-            "attributes": {
-              "data_source": {
-                "id": "1074",
-                "type": "ColumnDataSource"
-              },
-              "glyph": {
-                "id": "1075",
-                "type": "Line"
-              },
-              "hover_glyph": null,
-              "muted_glyph": null,
-              "nonselection_glyph": {
-                "id": "1076",
-                "type": "Line"
-              },
-              "selection_glyph": null,
-              "view": {
-                "id": "1078",
-                "type": "CDSView"
-              }
-            },
-            "id": "1077",
-            "type": "GlyphRenderer"
-          }, {
-            "attributes": {
-              "axis_label": "compilation time, s",
+              "axis_label": "number of methods/extensions",
               "formatter": {
-                "id": "1038",
+                "id": "1039",
                 "type": "BasicTickFormatter"
               },
               "ticker": {
-                "id": "1018",
+                "id": "1013",
                 "type": "BasicTicker"
               }
             },
-            "id": "1017",
+            "id": "1012",
             "type": "LinearAxis"
           }, {
             "attributes": {
-              "callback": null,
-              "data": {
-                "x": [0, 46, 144, 155, 182, 280, 381, 388],
-                "y": [0, 0.208, 0.381, 0.422, 0.457, 0.632, 0.824, 0.854]
-              },
-              "selected": {
-                "id": "1178",
-                "type": "Selection"
-              },
-              "selection_policy": {
-                "id": "1177",
-                "type": "UnionRenderers"
-              }
-            },
-            "id": "1136",
-            "type": "ColumnDataSource"
-          }, {
-            "attributes": {
               "source": {
-                "id": "1074",
+                "id": "1058",
                 "type": "ColumnDataSource"
               }
             },
-            "id": "1078",
+            "id": "1062",
             "type": "CDSView"
-          }, {
-            "attributes": {},
-            "id": "1018",
-            "type": "BasicTicker"
-          }, {
-            "attributes": {
-              "line_color": "blue",
-              "line_dash": [4, 4],
-              "line_width": 2,
-              "x": {
-                "field": "x"
-              },
-              "y": {
-                "field": "y"
-              }
-            },
-            "id": "1137",
-            "type": "Line"
-          }, {
-            "attributes": {
-              "bounds": [0, 2000],
-              "dimension": 1,
-              "ticker": {
-                "id": "1018",
-                "type": "BasicTicker"
-              }
-            },
-            "id": "1021",
-            "type": "Grid"
-          }, {
-            "attributes": {
-              "line_alpha": 0.1,
-              "line_color": "#1f77b4",
-              "line_dash": [4, 4],
-              "line_width": 2,
-              "x": {
-                "field": "x"
-              },
-              "y": {
-                "field": "y"
-              }
-            },
-            "id": "1138",
-            "type": "Line"
-          }, {
-            "attributes": {},
-            "id": "1089",
-            "type": "UnionRenderers"
-          }, {
-            "attributes": {
-              "data_source": {
-                "id": "1136",
-                "type": "ColumnDataSource"
-              },
-              "glyph": {
-                "id": "1137",
-                "type": "Line"
-              },
-              "hover_glyph": null,
-              "muted_glyph": null,
-              "nonselection_glyph": {
-                "id": "1138",
-                "type": "Line"
-              },
-              "selection_glyph": null,
-              "view": {
-                "id": "1140",
-                "type": "CDSView"
-              }
-            },
-            "id": "1139",
-            "type": "GlyphRenderer"
-          }, {
-            "attributes": {
-              "callback": null,
-              "data": {
-                "x": [0, 100, 1000, 2000, 3000, 5000, 10000],
-                "y": [0, 0.31, 2.011, 4.011, 6.036, 10.062, 20.22]
-              },
-              "selected": {
-                "id": "1056",
-                "type": "Selection"
-              },
-              "selection_policy": {
-                "id": "1055",
-                "type": "UnionRenderers"
-              }
-            },
-            "id": "1031",
-            "type": "ColumnDataSource"
           }],
           "root_ids": ["1153"]
         },
@@ -1227,9 +1223,9 @@
 
               var docs_json = document.getElementById('1379').textContent;
               var render_items = [{
-                "docid": "732fee18-6e58-423e-9ae2-4e86fc4c45a6",
+                "docid": "75a5a1bd-47af-40ae-9587-7492baa161ef",
                 "roots": {
-                  "1153": "da418b99-f8d7-4460-9ab2-b7c422d2abd9"
+                  "1153": "d9d049d4-dc5d-4f6d-bb90-8b0cbe23e341"
                 }
               }];
               root.Bokeh.embed.embed_items(docs_json, render_items);
@@ -1259,6 +1255,7 @@
       else document.addEventListener("DOMContentLoaded", fn);
     })();
   </script>
+
 </body>
 
 </html>
