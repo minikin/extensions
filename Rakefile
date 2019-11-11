@@ -46,7 +46,7 @@ end
 
 desc "Run multiple compilation cycle"
 task :benchmark do
-  apps_list.each do |tests|
+  general_list.each do |tests|
     num_tests = tests
     puts "Using #{num_tests} #{USE_EXTENSIONS ? 'extensions' : 'methods'}"
     puts "========================================="

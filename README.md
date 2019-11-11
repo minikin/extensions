@@ -1,7 +1,7 @@
 # Benchmark of Swift extensions vs methods
 
-- Swift version: 5.0
-- Updated: 23.04.2019
+- Swift version: 5.1.2
+- Updated: 12.11.2019
 
 [![Results](results.png?raw=true "Benchmark of Swift extensions vs methods")](http://minikin.me/extensions/)
 
@@ -27,9 +27,21 @@ _[Results for Swift 4.1](https://github.com/minikin/extensions/tree/swift-4.1)_
 
 If you have any questions, please feel free to contact me: [@minikin](https://twitter.com/minikin)
 
+## Testing Machine
+
+Mac Pro (Late 2013)
+
+3 GHz 8-Core Intel Xeon E5
+
+64 GB 1866 MHz DDR3
+
+AMD FirePro D500 3 GB
+
+macOS 10.15.1
+
 ## Plots
 
-To genrate `index.html` run:
+To generate `index.html` run:
 
 ```python
 python3 main.py
